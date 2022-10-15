@@ -1,0 +1,92 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: Surajit Ray
+# Description of the Site
+description: Professor of Statistics at the University of Glasgow
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Medical Imaging, Mixture models, Statistics, Functional Data Analysis
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://www.gla.ac.uk/media/Media_627169_smxx.jpg
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: surajit.ray@glasgow.ac.uk
+twitter_username: surajitstat
+
+linkedin_username: surajit-ray-51ab7021
+github_username:  surajitstat
+
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: Surajit Ray
+
+# Name of the Author
+author-name: Surajit Ray
+# URL for the Image of the Author
+author-image: https://www.gla.ac.uk/media/Media_633760_smxx.jpg
+# 60 Words About the Author
+author-about: My research interests are in the area of model selection, the theory and geometry of mixture models and functional data analysis. I am especially interested in challenges presented by "large magnitude", both in the dimension of data vectors and in the number of vector. Core areas of methodological research include multivariate mixtures, structural equations models, high-dimensional clustering and functional clustering. Key collaborative activities involve projects in immunology, modeling of climate-ecosystem dynamics and medical image segmentation.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://surajitray.org
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
