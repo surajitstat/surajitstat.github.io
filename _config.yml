@@ -53,7 +53,10 @@ sass:
 plugins:
   - jekyll-admin
   - jekyll-feed
+  - jekyll-scholar
 
+gems:
+  - jekyll/scholar
 # Permalink
 permalink: "blog/:title"
 
@@ -90,3 +93,10 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# Scholar 
+scholar:
+  style: chicago-fullnote-bibliography
+  sort_by: year
+  order: descending
+  bibliography_list_tag: ul
