@@ -2,7 +2,7 @@
 title: Research Grants
 layout: pageleft
 ---
-# Major Grants 
+## Major Grants  (blah)
 
 
 
@@ -14,7 +14,7 @@ layout: pageleft
 
 - `NSF (USA)` Award No: #0947950: [NSF   GK-12 Graduate STEM Fellows in K-12 Education GLACIER-Global Change Initiative-Education & Research](https://app.dimensions.ai/details/grant/grant.3108353) 03/15/2010- 03/14/2014 ($2,854,102)
 
-# Other research grants
+## Other research grants
 - `UoG`: University of Glasgow Research Reinvigoration grant:** (£40,700) 2022-2023 Role: PI
 
 
@@ -28,7 +28,7 @@ layout: pageleft
 
 
 
-# Studentship and other commercial grants
+## Studentship and other commercial grants
 - `Carnegie` Trust studentship: [Wenhui Zhang](https://www.carnegie-trust.org/alumni/wenhui-zhang-2/) Role: PI 2020-2024
 
 - `EPSRC`-Industry studentship: Generation of synthetic medical histories for clinical decision support - a connected approach (£30,000) Role: PI 2018-2021
@@ -39,7 +39,7 @@ layout: pageleft
 
 - `ESF` European Social Fund: Datalab MSc Scholarship (£96,360) 01/10/2018-30/09/2020
 
-# Workshop Grants
+## Workshop Grants
 
 
 
