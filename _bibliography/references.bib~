@@ -1,0 +1,653 @@
+@article{enlighten282064,
+           month = {October},
+           title = {Beta-blockers and mechanical dyssynchrony in heart failure assessed by radionuclide ventriculography},
+          author = {K.A. Jones and C.A. Paterson and S. Ray and D.A. Motherwell and D.J. Hamilton and A.D. Small and W. Martin and N.E.R. Goodfield},
+       publisher = {Springer},
+            year = {2022},
+         journal = {Journal of Nuclear Cardiology},
+             url = {https://eprints.gla.ac.uk/282064/},
+        abstract = {No abstract available.}
+}
+
+@article{enlighten272772,
+          volume = {7},
+          number = {8},
+           month = {August},
+          author = {Brian J. Willett and Joe Grove and Oscar A. MacLean and Craig Wilkie and Giuditta De Lorenzo and Wilhelm Furnon and Diego Cantoni and Sam Scott and Nicola Logan and Shirin Ashraf and Maria Manali and Agnieszka Szemiel and Vanessa Cowton and Elen Vink and William T. Harvey and Chris Davis and Patawee Asamaphan and Katherine Smollett and Lily Tong and Richard Orton and Joseph Hughes and Poppy Holland and Vanessa Silva and David J. Pascall and Kathryn Puxty and Ana Da Silva Filipe and Gonzalo Yebra and Sharif Shaaban and Matthew T.G. Holden and Rute Maria Pinto and Rory Gunson and Kate Templeton and Pablo R. Murcia and Arvind H. Patel and Paul Klenerman and Susanna Dunachie and  PITCH Consortium and  The COVID-19 Genomics UK (COG-UK) Consortium and John Haughney and David L. Robertson and Massimo Palmarini and Surajit Ray and Emma C. Thomson},
+            note = {Funding was provided by Health Data Research UK (HDR UK) for the Evaluation of Variants Affecting Deployed COVID-19 Vaccine (EVADE) study (E.C.T., S.R., O.A.M., C.W. and B.J.W.; grant code: 2021.0155). This research is part of the Data and Connectivity National Core Study, led by Health Data Research UK in partnership with the Office for National Statistics and funded by UK Research and Innovation (grant ref MC\_PC\_20058). This work was also supported by The Alan Turing Institute via ?Towards Turing 2.0? EPSRC Grant Funding. COG-UK is supported by funding from the Medical Research Council (MRC, part of UK Research \&amp; Innovation (UKRI)), the National Institute of Health Research (NIHR; grant code: MC\_PC\_19027) and Genome Research Limited, operating as the Wellcome Sanger Institute (R.M.P., D.L.R. and E.C.T.). Medical Research Council (MRC) provided funding for both the COVID-19 DeplOyed VaccinE (DOVE) study (grant code: MCUU1201412) and COG-UK (E.C.T.). A.d.S.F., J.H., R.O., J.G., E.C.T., N.L. and D.L.R. were funded by the Medical Research Council (MRC; grant code: MC\_UU\_12014/12). W.T.H. was supported by the MRC (grant codes MR/R024758/1 and MR/W005611/1). The G2P-UK National Virology Consortium was funded by UK Research and Innovation (UKRI) award MR/W005611/1 (M.P., E.C.T., A.H.P. and D.L.R.). D.L.R. was funded by Wellcome Trust (grant code: 220977/Z/20/Z). N.L. and B.J.W. were funded by the Biotechnology and Biological Sciences Research Council (grant codes: BBSRC, BB/R004250/1 and BB/R019843/1). J.G. was funded by a Wellcome Trust and Royal Society Sir Henry Dale Fellowship (grant code: 107653/Z/15/A). D.J.P. was funded by UKRI through the JUNIPER consortium (grant number MR/V038613/1). The PITCH Consortium is funded by the United Kingdom Department of Health and Social Care.},
+           title = {SARS-CoV-2 Omicron is an immune escape variant with an altered cell entry pathway},
+       publisher = {Nature Research},
+            year = {2022},
+         journal = {Nature Microbiology},
+           pages = {1161--1179},
+             url = {https://eprints.gla.ac.uk/272772/},
+        abstract = {Vaccines based on the spike protein of SARS-CoV-2 are a cornerstone of the public health response to COVID-19. The emergence of hypermutated, increasingly transmissible variants of concern (VOCs) threaten this strategy. Omicron (B.1.1.529), the fifth VOC to be described, harbours multiple amino acid mutations in spike, half of which lie within the receptor-binding domain. Here we demonstrate substantial evasion of neutralization by Omicron BA.1 and BA.2 variants in vitro using sera from individuals vaccinated with ChAdOx1, BNT162b2 and mRNA-1273. These data were mirrored by a substantial reduction in real-world vaccine effectiveness that was partially restored by booster vaccination. The Omicron variants BA.1 and BA.2 did not induce cell syncytia in vitro and favoured a TMPRSS2-independent endosomal entry pathway, these phenotypes mapping to distinct regions of the spike protein. Impaired cell fusion was determined by the receptor-binding domain, while endosomal entry mapped to the S2 domain. Such marked changes in antigenicity and replicative biology may underlie the rapid global spread and altered pathogenicity of the Omicron variant.},
+             doi = {10.1038/s41564-022-01143-7}
+}
+
+@inproceedings{enlighten280381,
+       booktitle = {26th UK Conference on Medical Image Understanding and Analysis (MIUA 2022)},
+           month = {July},
+           title = {Kernel Smoothing-based Probability Contours for Tumour Segmentation},
+          author = {Wenhui Zhang and Surajit Ray},
+            year = {2022},
+             url = {https://eprints.gla.ac.uk/280381/},
+        abstract = {Statistical imaging together with other machine learning techniques
+are the epitome of digitalizing healthcare and are culminating towards
+developing innovative tools for automatic analysis of three-dimensional
+radiological images {--} PET (Positron Emission Tomography) images. In
+this project, we have developed a kernel smoothing probability contour
+method on PET image segmentation which can be trained with a relatively
+low number of samples. A clear advantage of our kernel smoothing
+probability contour method is that it provides a surface over images
+which produces contour-based results rather than pixel-wise results, thus
+mimicking human observers? behaviour. In addition, our methodology
+provides the tools for developing a probabilistic approach with uncertainty
+measurement along with the segmentation.}
+}
+
+@inproceedings{enlighten280387,
+       booktitle = {Classification and Data Science in Digital Age - 17th Conference of the International Federation of Classification Society (IFCS 2022)},
+           month = {July},
+           title = {Kernel Smoothing-based Probability Contours for Tumour Segmentation},
+          author = {Wenhui Zhang and Surajit Ray},
+            year = {2022},
+             url = {https://eprints.gla.ac.uk/280387/},
+        abstract = {Statistical imaging together with other machine learning techniques are the epitome
+of digitalizing healthcare and are culminating towards developing innovative tools
+for automatic analysis of three-dimensional radiological images {--} PET (Positron
+Emission Tomography) images [1]. However, the three major challenges in radiology are: (1) increasing demand for medical imaging (2) decreasing turnaround times
+caused by mass data (3) diagnostic accuracy that leads to a quantification of images.
+To address these challenges along with ethical issues regarding the use of Artificial
+Intelligence in patient care, there is a need to develop a new framework of statistical
+analysis which can be readily used by clinicians and can be trained with a relatively
+lower number of samples. Most existing algorithms segments a 2D slice by assigning the grid of pixels into the tumour or non-tumour class. Instead of a pixel-level
+analysis, we will assume that the true intensity comes from a smooth underlying
+spatial process which can be modelled by a kernel estimates [2]. In this project, we
+have developed a kernel smoothing-based probability contour method on PET image
+segmentation, which provides a surface over images that produces contour-based
+results rather than pixel-wise results, thus mimicking human observers? behaviour.
+In addition, our methodology provides the tools for developing a probabilistic approach with uncertainty measurement along with the segmentation. Our method is
+computational efficient and can produce reproductive and robust results for tumour
+detection, delineation and radiotherapy planning, together with other complementary
+modalities, such as CT (Computed tomography) images.}
+}
+
+@article{enlighten273778,
+          volume = {23},
+          number = {13},
+           month = {July},
+          author = {Anna N. Boss and Abhirup Banerjee and Michail Mamalakis and Surajit Ray and Andrew Swift and Craig Wilkie and Joseph W. Fanstone and Bart Vorselaars and Joby Cole and Simonne Weeks and Louise S. Mackenzie},
+            note = {Funding: The main body of research was supported by the Engineering and Physical Sciences
+Research Council [grant number EP/R511705/1]. Dr Andrew Swift is funded by a Wellcome Trust
+fellowship 205188/Z/16/Z. We also received funding from the University of Brighton COVID-19
+Research Urgency Fund.},
+           title = {Development of a mortality prediction model in hospitalised SARS-CoV-2 positive patients based on routine kidney biomarkers},
+       publisher = {MDPI},
+            year = {2022},
+         journal = {International Journal of Molecular Sciences},
+             url = {https://eprints.gla.ac.uk/273778/},
+        abstract = {Acute kidney injury (AKI) is a prevalent complication in severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) positive inpatients, which is linked to an increased mortality rate compared to patients without AKI. Here we analysed the difference in kidney blood biomarkers in SARS-CoV-2 positive patients with non-fatal or fatal outcome, in order to develop a mortality prediction model for hospitalised SARS-CoV-2 positive patients. A retrospective cohort study including data from suspected SARS-CoV-2 positive patients admitted to a large National Health Service (NHS) Foundation Trust hospital in the Yorkshire and Humber regions, United Kingdom, between 1 March 2020 and 30 August 2020. Hospitalised adult patients (aged ? 18 years) with at least one confirmed positive RT-PCR test for SARS-CoV-2 and blood tests of kidney biomarkers within 36 h of the RT-PCR test were included. The main outcome measure was 90-day in-hospital mortality in SARS-CoV-2 infected patients. The logistic regression and random forest (RF) models incorporated six predictors including three routine kidney function tests (sodium, urea; creatinine only in RF), along with age, sex, and ethnicity. The mortality prediction performance of the logistic regression model achieved an area under receiver operating characteristic (AUROC) curve of 0.772 in the test dataset (95\% CI: 0.694?0.823), while the RF model attained the AUROC of 0.820 in the same test cohort (95\% CI: 0.740?0.870). The resulting validated prediction model is the first to focus on kidney biomarkers specifically on in-hospital mortality over a 90-day period.},
+             doi = {10.3390/ijms23137260}
+}
+
+@article{enlighten219390,
+          volume = {29},
+          number = {2},
+           month = {April},
+          author = {K.A. Jones and A.D. Small and S. Ray and D.J. Hamilton and W. Martin and J. Robinson and N.E.R. Goodfield and C.A. Paterson},
+           title = {Radionuclide ventriculography phase analysis for risk stratification of patients undergoing cardiotoxic cancer therapy},
+       publisher = {Springer},
+            year = {2022},
+         journal = {Journal of Nuclear Cardiology},
+           pages = {581--589},
+             url = {https://eprints.gla.ac.uk/219390/},
+        abstract = {Background: 
+Accurate diagnostic tools to identify patients at risk of cancer therapy-related cardiac dysfunction (CTRCD) are critical. For patients undergoing cardiotoxic cancer therapy, ejection fraction assessment using radionuclide ventriculography (RNVG) is commonly used for serial assessment of left ventricular (LV) function.
+
+Methods: 
+In this retrospective study, approximate entropy (ApEn), synchrony, entropy, and standard deviation from the phase histogram (phase SD) were investigated as potential early markers of LV dysfunction to predict CTRCD. These phase parameters were calculated from the baseline RNVG phase image for 177 breast cancer patients before commencing cardiotoxic therapy.
+
+Results: 
+Of the 177 patients, 11 had a decline in left ventricular ejection fraction (LVEF) of over 10\% to an LVEF below 50\% after treatment had commenced. This patient group had a significantly higher ApEn at baseline to those who maintained a normal LVEF throughout treatment. Of the parameters investigated, ApEn was superior for predicting the risk of CTRCD. Combining ApEn with the baseline LVEF further improved the discrimination between the groups.
+
+Conclusions: 
+The results suggest that RNVG phase analysis using approximate entropy may aid in the detection of sub-clinical LV contraction abnormalities, not detectable by baseline LVEF measurement, predicting a subsequent decline in LVEF.},
+             doi = {10.1007/s12350-020-02277-z}
+}
+
+@article{enlighten257557,
+          volume = {94},
+           month = {December},
+          author = {Michail Mamalakis and Andrew J. Swift and Bart Vorselaars and Surajit Ray and Simone Weeks and Weiping Ding and Richard H. Clayton and Louise S. Mackenzie and Abhirup Banerjee},
+            note = {The work of Andrew J. Swift was supported by the Wellcome Trust fellowship grant 205188/Z/16/Z.},
+           title = {DenResCov-19: a deep transfer learning network for robust automatic classification of COVID-19, pneumonia, and tuberculosis from X-rays},
+       publisher = {Elsevier},
+         journal = {Computerized Medical Imaging and Graphics},
+            year = {2021},
+        keywords = {COVID-19, pneumonia, chest X-rays, deep transfer learning network, automatic classification, tuberculosis.},
+             url = {https://eprints.gla.ac.uk/257557/},
+        abstract = {The global pandemic of coronavirus disease 2019 (COVID-19) is continuing to have a significant effect on the well-being of the global population, thus increasing the demand for rapid testing, diagnosis, and treatment. As COVID-19 can cause severe pneumonia, early diagnosis is essential for correct treatment, as well as to reduce the stress on the healthcare system. Along with COVID-19, other etiologies of pneumonia and Tuberculosis (TB) constitute additional challenges to the medical system. Pneumonia (viral as well as bacterial) kills about 2 million infants every year and is consistently estimated as one of the most important factor of childhood mortality (according to the World Health Organization). Chest X-ray (CXR) and computed tomography (CT) scans are the primary imaging modalities for diagnosing respiratory diseases. Although CT scans are the gold standard, they are more expensive, time consuming, and are associated with a small but significant dose of radiation. Hence, CXR have become more widespread as a first line investigation. In this regard, the objective of this work is to develop a new deep transfer learning pipeline, named DenResCov-19, to diagnose patients with COVID-19, pneumonia, TB or healthy based on CXR images. The pipeline consists of the existing DenseNet-121 and the ResNet-50 networks. Since the DenseNet and Resnet have orthogonal performances in some instances, in the proposed model we have created an extra layer with convolutional neural network (CNN) blocks to join these two models together to establish superior performance as compared to the two individual networks. This strategy can be applied universally in cases where two competing networks are observed. We have tested the performance of our proposed network on two-class (pneumonia and healthy), three-class (COVID-19 positive, healthy, and pneumonia), as well as four-class (COVID-19 positive, healthy, TB, and pneumonia) classification problems. We have validated that our proposed network has been able to successfully classify these lung-diseases on our four datasets and this is one of our novel findings. In particular, the AUC-ROC are 99.60, 96.51, 93.70, 96.40\% and the F1 values are 98.21, 87.29, 76.09, 83.17\% on our Dataset X-Ray 1, 2, 3, and 4 (DXR1, DXR2, DXR3, DXR4), respectively.},
+             doi = {10.1016/j.compmedimag.2021.102008}
+}
+
+@inproceedings{enlighten273788,
+       booktitle = {Pharmacology 2021: Today's Science, Tomorrow's Medicines},
+           title = {Can Kidney Function Be Used to Predict Survival of COVID-19 in Hospitals? Predictive Modelling in a Retrospective Cohort Study},
+          author = {Louise S. Mackenzie and Craig Wilkie and Surajit Ray and Abhirup Banerjee and Michail Mamalakis and Andrew J. Swift and Bart Vorselaars and Joseph Fanstone and Simonne Weeks},
+            year = {2021},
+             url = {https://eprints.gla.ac.uk/273788/},
+        abstract = {Introduction/Background and aims:
+Blood biomarkers have been included in several mortality prediction models in the literature [1,2] where it has been noted that mortality of coronavirus disease 2019 (COVID-19) has been linked to changes in kidney function. Therefore, the role of the kidneys is of interest in understanding COVID-19 severity and outcome in patients. The study aimed to investigate the link between kidney blood biomarkers and the survival from severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection on admittance to hospital in a retrospective cohort study.
+Methods/summary of work:
+De-identified and pseudo-anonymised patient data included in this study were approved by
+the ethics committee as part of the existing Cardiac MRI Database NHS REC IRAS Ref: 222349 and University of Brighton REC (8011).
+In a retrospective cohort study using data extracted from the Laboratory Information Management System, the data were collected at a large NHS Foundation Trust hospital in the Yorkshire and Humber regions, UK. The extracted dataset included 400 patients between the age of 18 and 102 years who were admitted to Accident and Emergency unit between 01/03/2020 and 31/08/2020. All patients had a confirmed reverse transcription polymerase chain reaction (RT-PCR) test for SARS-CoV-2, a recorded survival/non-survival outcome within 55 days, and kidney function blood tests conducted within 36 hours of SARS-CoV-2 PCR test.
+Results/Discussion:
+Following candidate selection, the models were finalised with the predictors age, sodium, potassium, urea, and creatinine. Logistic regression showed good discrimination for in-hospital death within the development cohort with an AUROC of 0.770 (95\% CI: 0.663-0.846). Random forest had an AUROC of 0.710 (95\% CI: 0.620-0.780). The specificity for the logistic regression was high with 0.907, whereas the sensitivity was 0.538. Similar values were calculated for the random forest model specificity (0.889) and lower sensitivity (0.423).
+The stratified 5-fold cross-validation included the training split of 80\% of all included patients (n = 320), and each fold was used as test set once (n = 64). Discrimination of the logistic regression in the validation cohort was 0.780 (95\% CI: 0.720-0.838) and higher than in the development cohort. The AUROC for the random forest model also improved compared to the development cohort (0.766, 95\% CI: 0.730-0.810).
+
+Conclusion:
+The kidney prediction model can be used to obtain accurate predictions of survival of patients with SARS-CoV-2 in patients within 55 days of admittance to hospital. Further external validation is planned with larger datasets from NCCID and Biobank.}
+}
+
+@article{enlighten217969,
+          volume = {86},
+           month = {September},
+           title = {Use of machine learning and artificial intelligence to predict SARS-CoV-2 infection from full blood counts in a population},
+          author = {Abhirup Banerjee and Surajit Ray and Bart Vorselaars and Joanne Kitson and Michail Mamalakis and Simonne Weeks and Mark Baker and Louise S. Mackenzie},
+       publisher = {Elsevier},
+            year = {2020},
+         journal = {International Immunopharmacology},
+        keywords = {SARS-CoV-2, machine learning, artificial neural network (ANN), screening, full blood count, leukocytes, monocytes.},
+             url = {https://eprints.gla.ac.uk/217969/},
+        abstract = {Since December 2019 the novel coronavirus SARS-CoV-2 has been identified as the cause of the pandemic Covid 19. Early symptoms overlap with other common conditions such as common cold and Influenza, making early screening and diagnosis are crucial goals for health practitioners. The aim of the study was to use machine learning, an artificial neural network (ANN) and a simple statistical test to identify SARS-CoV-2 positive patients from full blood counts without knowledge of symptoms or history of the individuals. The dataset included in the analysis and training contains anonymized full blood count results from patients seen at the Hospital Israelita Albert Einstein, at S{\~a}o Paulo, Brazil, and who had samples collected to perform the SARS-CoV-2 rt-PCR test during a visit to the hospital. Patient data was anonymised by the hospital, clinical data was standardized to have a mean of zero and a unit standard deviation. This data was made public with the aim to allow researchers to develop ways to enable the hospital to rapidly predict and potentially identify SARS-CoV-2 positive patients.
+
+We find that with full blood counts random forest, shallow learning and a flexible ANN model predict SARS-CoV-2 patients with high accuracy between populations on regular wards (AUC = 93-94\%) and those not admitted to hospital or in the community (AUC = 80-86\%). Here AUC is the Area Under the receiver operating characteristics Curve and a measure for model performance. Moreover, a simple linear combination of 4 blood counts can be used to have an AUC of 85\% for patients within the community. The normalised data of different blood parameters from SARS-CoV-2 positive patients exhibit a decrease in platelets, leukocytes, eosinophils, basophils and lymphocytes, and an increase in monocytes.
+
+SARS-CoV-2 positive patients exhibit a characteristic immune response profile pattern and changes in different parameters measured in the full blood count that are detected from simple and rapid blood tests. While symptoms at an early stage of infection are known to overlap with other common conditions, parameters of the full blood count can be analysed to distinguish the viral type at an earlier stage than current rt-PCR tests for SARS-CoV-2 allow at present. This new methodology has potential to greatly improve initial screening for patients where PCR based diagnostic tools are limited.},
+             doi = {10.1016/j.intimp.2020.106705}
+}
+
+@misc{enlighten191547,
+       booktitle = {34th International Workshop on Statistical Modelling},
+          editor = {Lu{\'i}s Meira-Machado and Gustavo Soutinho},
+           month = {July},
+           title = {A New Framework for Distance-based Functional Clustering},
+          author = {Maryam Al Alawi and Surajit Ray and Mayetri Gupta},
+            year = {2019},
+        keywords = {Functional data, smoothing, clustering, spectral clustering.},
+             url = {https://eprints.gla.ac.uk/191547/},
+        abstract = {We develop a new framework for clustering functional data, based on a distance matrix similar to the approach in clustering multivariate data using spectral clustering. First, we smooth the raw observations using appropriate smoothing techniques with desired smoothness, through a penalized fit. The next step is to create an optimal distance matrix either from the smoothed curves or their available derivatives. The choice of the distance matrix depends on the nature of the data. Finally, we create and implement the spectral clustering algorithm. We applied our newly developed approach, Functional Spectral Clustering (FSC) on sets of simulated and real data. Our proposed method showed better performance than existing methods with respect to accuracy rates.}
+}
+
+@article{enlighten179725,
+          volume = {3},
+          number = {1},
+           month = {July},
+          author = {M.J. Bayarri and James O. Berger and Woncheol Jang and Surajit Ray and Luis R. Pericchi and Ingmar Visser},
+            note = {M. J. Bayarri's research was supported by the Spanish Ministry of Education and Science [grant number MTM2010-19528]; James Berger's research was supported by USA National Science Foundation [grant numbers DMS-1007773 and DMS-1407775]; Woncheol Jang's research was supported by the National Research Foundation of Korea (NRF) grants funded by the Korea government (MSIP), No. 2014R1A4A1007895 and No. 2017R1A2B2012816; Luis Pericchi's research was supported by grant CA096297/CA096300 from the USA National Cancer Institute of the National Institutes of Health.},
+           title = {Prior-based Bayesian information criterion},
+       publisher = {Taylor and Francis},
+            year = {2019},
+         journal = {Statistical Theory and Related Fields},
+           pages = {2--13},
+             url = {https://eprints.gla.ac.uk/179725/},
+        abstract = {We present a new approach to model selection and Bayes factor determination, based on Laplace expansions (as in BIC), which we call Prior-based Bayes Information Criterion (PBIC). In this approach, the Laplace expansion is only done with the likelihood function, and then a suitable prior distribution is chosen to allow exact computation of the (approximate) marginal likelihood arising from the Laplace approximation and the prior. The result is a closed-form expression similar to BIC, but now involves a term arising from the prior distribution (which BIC ignores) and also incorporates the idea that different parameters can have different effective sample sizes (whereas BIC only allows one overall sample size n). We also consider a modification of PBIC which is more favourable to complex models.},
+             doi = {10.1080/24754269.2019.1582126}
+}
+
+@article{enlighten185470,
+          volume = {3},
+          number = {1},
+           month = {July},
+          author = {James Berger and Woncheol Jang and Surajit Ray and Luis R. Rericchi and Ingmar Visser},
+           title = {Rejoinder by James Berger, Woncheol Jang, Surajit Ray, Luis R. Pericchi and Ingmar Visser},
+       publisher = {Taylor \& Francis},
+            year = {2019},
+         journal = {Statistical Theory and Related Fields},
+           pages = {37--39},
+             url = {https://eprints.gla.ac.uk/185470/},
+        abstract = {No abstract available.},
+             doi = {10.1080/24754269.2019.1611147}
+}
+
+@inproceedings{enlighten191549,
+       booktitle = {11th SINAPSE Annual Scientific Meeting},
+           month = {June},
+           title = {Analysis of PET Imaging for Tumor Delineation},
+          author = {Surajit Ray},
+            year = {2019},
+             url = {https://eprints.gla.ac.uk/191549/},
+        abstract = {The primary goal of this is research is to build a statistical framework for automated PET image analysis that is closer to human perception. Although manual interpretation of the PET image is more accurate and reproducible than thresholding-based semiautomatic segmentation methods, human contouring has large interobserver and intraobserver variations and moreover, it is extremely time-consuming. Further, it is harder for humans to analyze more than two dimensions at a time and it becomes even harder if multiple modalities are involved. Moreover, if the task is to analyze a series of images it quickly becomes an onerous job for a single human. The new statistical framework is designed to mimic the human perception for tumour delineation and marry it with all the advan- tages of an analytic method using modern day computing environment.}
+}
+
+@article{enlighten180711,
+          volume = {43},
+          number = {2},
+           month = {June},
+          author = {Siphumlile Mangisa and Sonali Das and Surajit Ray and Gary Sharp},
+           title = {Functional regression models for South African economic indicators: a growth curve perspective},
+       publisher = {Wiley},
+            year = {2019},
+         journal = {OPEC Energy Review},
+           pages = {217--237},
+             url = {https://eprints.gla.ac.uk/180711/},
+        abstract = {In this paper, we compare three functional regression models from a growth curve perspective to predict the relationship between two economic variables, specifically we compare a functional concurrent model, a functional historical model and a functional autoregressive model (FAR). The dependent and the independent variables are cumulated over the annual time window for the growth curve analyses. These models are used to predict exports (real) for the South African economy in terms of electricity demand. The data analysed consist of 33 years of exports (in ZAR million) at annual quarterly frequency, and electricity demand (in GwH) at monthly totals. Exploratory analysis included phase?plane plots for the two series. For the prediction exercise, the baseline concurrent model was evaluated against the other two models, and their performance compared using the root?mean?square error (RSME) measure, the relative performance in terms of the ratio of the RMSEs, and a Kolmogorov?Smirnov based hypothesis test to compare the distributions of the RMSEs of the models. Our results show that from the growth curve perspective, for the prediction of exports in terms of electricity for the SA economy, the FAR model of lag(1) outperforms both the concurrent model and the historical model by far.},
+             doi = {10.1111/opec.12148}
+}
+
+@article{enlighten166564,
+          volume = {13},
+          number = {9},
+           month = {September},
+          author = {Dylan M. Young and Lauren E. Parry and Duncan Lee and Surajit Ray},
+           title = {Spatial models with covariates improve estimates of peat depth in blanket peatlands},
+       publisher = {Public Library of Science},
+         journal = {PLoS ONE},
+            year = {2018},
+             url = {https://eprints.gla.ac.uk/166564/},
+        abstract = {Peatlands are spatially heterogeneous ecosystems that develop due to a complex set of autogenic physical and biogeochemical processes and allogenic factors such as the climate and topography. They are significant stocks of global soil carbon, and therefore predicting the depth of peatlands is an important part of establishing an accurate assessment of their magnitude. Yet there have been few attempts to account for both internal and external processes when predicting the depth of peatlands. Using blanket peatlands in Great Britain as a case study, we compare a linear and geostatistical (spatial) model and several sets of covariates applicable for peatlands around the world that have developed over hilly or undulating terrain. We hypothesized that the spatial model would act as a proxy for the autogenic processes in peatlands that can mediate the accumulation of peat on plateaus or shallow slopes. Our findings show that the spatial model performs better than the linear model in all cases{--}root mean square errors (RMSE) are lower, and 95\% prediction intervals are narrower. In support of our hypothesis, the spatial model also better predicts the deeper areas of peat, and we show that its predictive performance in areas of deep peat is dependent on depth observations being spatially autocorrelated. Where they are not, the spatial model performs only slightly better than the linear model. As a result, we recommend that practitioners carrying out depth surveys fully account for the variation of topographic features in prediction locations, and that sampling approach adopted enables observations to be spatially autocorrelated.},
+             doi = {10.1371/journal.pone.0202691}
+}
+
+@article{enlighten100119,
+          volume = {27},
+          number = {6},
+           month = {November},
+          author = {Chong Liu and Surajit Ray and Giles Hooker},
+           title = {Functional principal component analysis of spatially correlated data},
+       publisher = {Springer},
+            year = {2017},
+         journal = {Statistics and Computing},
+           pages = {1639--1654},
+             url = {https://eprints.gla.ac.uk/100119/},
+        abstract = {This paper focuses on the analysis of spatially correlated functional data. We propose a parametric model for spatial correlation and the between-curve correlation is modeled by correlating functional principal component scores of the functional data. Additionally, in the sparse observation framework, we propose a novel approach of spatial principal analysis by conditional expectation to explicitly estimate spatial correlations and reconstruct individual curves. Assuming spatial stationarity, empirical spatial correlations are calculated as the ratio of eigenvalues of the smoothed covariance surface Cov (Xi(s),Xi(t))(Xi(s),Xi(t))  and cross-covariance surface Cov (Xi(s),Xj(t))(Xi(s),Xj(t))  at locations indexed by i and j. Then a anisotropy Mat{\'e}rn spatial correlation model is fitted to empirical correlations. Finally, principal component scores are estimated to reconstruct the sparsely observed curves. This framework can naturally accommodate arbitrary covariance structures, but there is an enormous reduction in computation if one can assume the separability of temporal and spatial components. We demonstrate the consistency of our estimates and propose hypothesis tests to examine the separability as well as the isotropy effect of spatial correlation. Using simulation studies, we show that these methods have some clear advantages over existing methods of curve reconstruction and estimation of model parameters.},
+             doi = {10.1007/s11222-016-9708-4}
+}
+
+@inproceedings{enlighten147591,
+       booktitle = {10th Annual University of Glasgow Learning and Teaching Conference},
+           month = {March},
+           title = {Preparing for the Journey: Supporting Students to Make Successful Transitions Into and Out of Taught Postgraduate Study},
+          author = {Nicolas Labrosse and Jessica Bownes and David Forrest and David MacTaggart and Euan McGookin and Ron Poet and Surajit Ray and Moira Fischbacher-Smith and Maria Jackson and Michael McEwan and Gayle Pringle Barnes and Nathalie Sheridan},
+            year = {2017},
+             url = {https://eprints.gla.ac.uk/147591/},
+        abstract = {No abstract available.}
+}
+
+@article{enlighten100118,
+          volume = {4},
+          number = {10},
+           month = {December},
+          author = {Yansong Cheng and Surajit Ray},
+           title = {Parallel and hierarchical mode association clustering with an R package Modalclust},
+       publisher = {Scientific Research Publishing Inc.},
+            year = {2014},
+         journal = {Open Journal of Statistics},
+           pages = {826--836},
+             url = {https://eprints.gla.ac.uk/100118/},
+        abstract = {Modalclust is an R package which performs Hierarchical Mode Association Clustering (HMAC) along with its parallel implementation over several processors. Modal clustering techniques are especially designed to efficiently extract clusters in high dimensions with arbitrary density shapes. Further, clustering is performed over several resolutions and the results are summarized as a hierarchical tree, thus providing a model based multi resolution cluster analysis. Finally we implement a novel parallel implementation of HMAC which performs the clustering job over several processors thereby dramatically increasing the speed of clustering procedure especially for large data sets. This package also provides a number of functions for visualizing clusters in high dimensions, which can also be used with other clustering softwares.},
+             doi = {10.4236/ojs.2014.410078}
+}
+
+@article{enlighten96920,
+          volume = {4},
+          number = {5},
+           month = {August},
+          author = {Yansong Cheng and Surajit Ray},
+           title = {Multivariate modality inference using Gaussian kernel},
+       publisher = {Scientific Research Publishing, Inc.},
+            year = {2014},
+         journal = {Open Journal of Statistics},
+           pages = {419--434},
+             url = {https://eprints.gla.ac.uk/96920/},
+        abstract = {The number of modes (also known as modality) of a kernel density estimator (KDE) draws lots of interests and is important in practice. In this paper, we develop an inference framework on the modality of a KDE under multivariate setting using Gaussian kernel. We applied the modal clustering method proposed by [1] for mode hunting. A test statistic and its asymptotic distribution are derived to assess the significance of each mode. The inference procedure is applied on both simulated and real data sets.},
+             doi = {10.4236/ojs.2014.45041}
+}
+
+@article{enlighten87073,
+          volume = {109},
+          number = {505},
+           month = {March},
+          author = {Bruce G. Lindsay and Marianthi Markatou and Surajit Ray},
+           title = {Kernels, degrees of freedom and power properties of quadratic distance goodness of fit tests},
+       publisher = {Taylor \& Francis},
+            year = {2014},
+         journal = {Journal of the American Statistical Association},
+           pages = {395--410},
+        keywords = {Midpower analysis,
+    high dimensional testing,
+    optimal kernel construction,
+    Pearson-normal kernel,
+    power lemma,
+    big data},
+             url = {https://eprints.gla.ac.uk/87073/},
+        abstract = {In this paper we study the power properties of quadratic distance based goodness of fit tests. First, we introduce the concept of a root kerneland discuss the considerations that enter the selection of this kernel. We derive an easy to use normal approximation to the power of quadratic distance goodness of fit tests and base the construction of a noncentrality index,an analogue of the traditional noncentrality parameter, on it. This leads to a method akin to the Neyman-Pearson lemma for constructing optimal kernels for specific alternatives. We then introduce a midpower analysis as a device for choosing optimal degrees of freedom for a family of alternatives of interest. Finally, we introduce a new diffusion kernel, called the Pearson-normal kernel and study the extend to which the normal approximation to the power of tests based on this kernel is valid.},
+             doi = {10.1080/01621459.2013.836972}
+}
+
+@article{enlighten90706,
+          volume = {21},
+          number = {1},
+           title = {BIC and alternative Bayesian information criteria in the selection of structural equation models},
+          author = {Kenneth A. Bollen and Jeffrey J. Harden and Surajit Ray and Jane Zavisca},
+            year = {2014},
+           pages = {1--19},
+         journal = {Structural Equation Modeling: A Multidisciplinary Journal},
+        keywords = {Bayes factor,
+    structural equation models,
+    BIC,
+    chi-square tests,
+    model fit,
+    model selection},
+             url = {https://eprints.gla.ac.uk/90706/},
+        abstract = {Selecting between competing structural equation models is a common problem. Often selection is based on the chi-square test statistic or other fit indices. In other areas of statistical research Bayesian information criteria are commonly used, but they are less frequently used with structural equation models compared to other fit indices. This article examines several new and old information criteria (IC) that approximate Bayes factors. We compare these IC measures to common fit indices in a simulation that includes the true and false models. In moderate to large samples, the IC measures outperform the fit indices. In a second simulation we only consider the IC measures and do not include the true model. In moderate to large samples the IC measures favor approximate models that only differ from the true model by having extra parameters. Overall, SPBIC, a new IC measure, performs well relative to the other IC measures.},
+             doi = {10.1080/10705511.2014.856691}
+}
+
+@article{enlighten96701,
+          volume = {6},
+          number = {3},
+          author = {Yansong Cheng and Surajit Ray and Mark Chang and Sandeep Menon},
+           title = {Statistical monitoring of clinical trials with multiple co-primary endpoints using multivariate B-value},
+       publisher = {Taylor and Francis},
+         journal = {Statistics in Biopharmaceutical Research},
+           pages = {241--250},
+            year = {2014},
+             url = {https://eprints.gla.ac.uk/96701/},
+        abstract = {This article develops methods of statistical monitoring of clinical trials with multiple co-primary endpoints, where success is defined as meeting both endpoints simultaneously. In practice, a group sequential design (GSD) method is used to stop trials early for promising efficacy, and conditional power (CP) is used for futility stopping rules. In this article, we show that stopping boundaries for the GSD with multiple co-primary endpoints should be the same as those for studies with single endpoints. Lan and Wittes proposed the B-value tool to calculate the CP of single endpoint trials and we extend this tool to calculate the CP for studies with multiple co-primary endpoints. We consider the cases of two-arm studies with co-primary normal and provide an example of implementation with simulated trial. A fixed-weight sample size reestimation approach based on CP is introduced.},
+             doi = {10.1080/19466315.2014.923324}
+}
+
+@incollection{enlighten94040,
+          volume = {2},
+          author = {Grigory Alexandrovich and Hajo Holzmann and Surajit Ray},
+          series = {Studies in Classification, Data Analysis, and Knowledge Organization},
+            note = {The final publication is available at link.springer.com.},
+       booktitle = {Algorithms from and for Nature and Life: Classification and Data Analysis},
+          editor = {Berthold Lausen and Dirk Van den Poel and Alfred Ultsch},
+           title = {On the number of modes of finite mixtures of elliptical distributions},
+       publisher = {Springer International Publishing},
+            year = {2013},
+           pages = {49--57},
+        keywords = {inite mixtures, number of modes, elliptical distributions, t distribution},
+             url = {https://eprints.gla.ac.uk/94040/},
+        abstract = {We extend the concept of the ridgeline from Ray and Lindsay (Ann Stat 33:2042?2065, 2005) to finite mixtures of general elliptical densities with possibly distinct density generators in each component. This can be used to obtain bounds for the number of modes of two-component mixtures of t distributions in any dimension. In case of proportional dispersion matrices, these have at most three modes, while for equal degrees of freedom and equal dispersion matrices, the number of modes is at most two. We also give numerical illustrations and indicate applications to clustering and hypothesis testing.},
+             doi = {10.1007/978-3-319-00035-0\_4}
+}
+
+@techreport{enlighten94294,
+          number = {10.1111/j.1467-9876.2012.01066.x},
+            type = {Discussion Paper},
+           title = {Discussion of Henning and Liao: How to find an appropriate clustering for mixed type variables with application to socio-economic stratification. Journal of the Royal Statistical Society: Series C. 62, 309-369},
+          author = {C. Chanialidis and P. Craigmile and V. Davies and N. Dean and L. Evers and M. Filiippone and M. Gupta and S. Ray and S. Rogers},
+       publisher = {Springer},
+            year = {2013},
+     institution = {University of Glasgow},
+             url = {https://eprints.gla.ac.uk/94294/},
+        abstract = {No abstract available.},
+             doi = {10.1111/j.1467-9876.2012.01066.x}
+}
+
+@incollection{enlighten69417,
+       booktitle = {Handbook of Statistics},
+          editor = {C.R. Rao and R. Chakraborty and P.K. Sen},
+           month = {August},
+           title = {Sequence pattern discovery with applications to understanding gene regulation and vaccine design},
+          author = {M. Gupta and S. Ray},
+       publisher = {Elsevier Press},
+            year = {2012},
+             url = {https://eprints.gla.ac.uk/69417/}
+}
+
+@article{enlighten69002,
+          volume = {41},
+          number = {2},
+           title = {A comparison of Bayes factor approximation methods including two new methods},
+          author = {K.A. Bollen and S. Ray and J. Zavisca and J.J. Harden},
+            year = {2012},
+           pages = {294--324},
+         journal = {Sociological Methods and Research},
+             url = {https://eprints.gla.ac.uk/69002/},
+        abstract = {Bayes factors (BFs) play an important role in comparing the fit of statistical models. However, computational limitations or lack of an appropriate prior sometimes prevent researchers from using exact BFs. Instead, it is approximated, often using the Bayesian Information Criterion (BIC) or a variant of BIC. The authors provide a comparison of several BF approximations, including two new approximations, the Scaled Unit Information Prior Bayesian Information Criterion (SPBIC) and Information matrix-based Bayesian Information Criterion (IBIC). The SPBIC uses a scaled unit information prior that is more general than the BIC?s unit information prior, and the IBIC utilizes more terms of approximation than the BIC. Through simulation, the authors show that several measures perform well in large samples, that performance declines in smaller samples, and that SPBIC and IBIC provide improvement to existing measures under some conditions, including small sample sizes. The authors illustrate the use of the fit measures with the crime data of Ehrlich and then conclude with recommendations for researchers.},
+             doi = {10.1177/0049124112452393}
+}
+
+@article{enlighten68995,
+          volume = {6},
+          number = {2},
+          author = {C. Liu and S. Ray and G. Hooker and M. Friedl},
+           title = {Functional factor analysis for periodic remote sensing data},
+       publisher = {Institute of Mathematical Statistics},
+         journal = {Annals of Applied Statistics},
+           pages = {601--624},
+            year = {2012},
+             url = {https://eprints.gla.ac.uk/68995/},
+        abstract = {We present a new approach to factor rotation for functional data. This is achieved by rotating the functional principal components toward a predefined space of periodic functions designed to decompose the total variation into components that are nearly-periodic and nearly-aperiodic with a predefined period. We show that the factor rotation can be obtained by calculation of canonical correlations between appropriate spaces which make the methodology computationally efficient. Moreover, we demonstrate that our proposed rotations provide stable and interpretable results in the presence of highly complex covariance. This work is motivated by the goal of finding interpretable sources of variability in gridded time series of vegetation index measurements obtained from remote sensing, and we demonstrate our methodology through an application of factor rotation of this data.},
+             doi = {10.1214/11-AOAS518}
+}
+
+@article{enlighten68993,
+          volume = {7},
+          number = {5},
+          author = {S. Ray and S. Pyne},
+           title = {A computational framework to emulate the human perspective in flow cytometric data analysis},
+       publisher = {Public Library of Science},
+         journal = {PLoS ONE},
+           pages = {e35693},
+            year = {2012},
+             url = {https://eprints.gla.ac.uk/68993/},
+        abstract = {Background: In recent years, intense research efforts have focused on developing methods for automated flow cytometric data analysis. However, while designing such applications, little or no attention has been paid to the human perspective that is absolutely central to the manual gating process of identifying and characterizing cell populations. In particular, the assumption of many common techniques that cell populations could be modeled reliably with pre-specified distributions may not hold true in real-life samples, which can have populations of arbitrary shapes and considerable inter-sample variation.
+
+\&lt;p/\&gt;Results: To address this, we developed a new framework flowScape for emulating certain key aspects of the human perspective in analyzing flow data, which we implemented in multiple steps. First, flowScape begins with creating a mathematically rigorous map of the high-dimensional flow data landscape based on dense and sparse regions defined by relative concentrations of events around modes. In the second step, these modal clusters are connected with a global hierarchical structure. This representation allows flowScape to perform ridgeline analysis for both traversing the landscape and isolating cell populations at different levels of resolution. Finally, we extended manual gating with a new capacity for constructing templates that can identify target populations in terms of their relative parameters, as opposed to the more commonly used absolute or physical parameters. This allows flowScape to apply such templates in batch mode for detecting the corresponding populations in a flexible, sample-specific manner. We also demonstrated different applications of our framework to flow data analysis and show its superiority over other analytical methods.
+
+\&lt;p/\&gt;Conclusions: The human perspective, built on top of intuition and experience, is a very important component of flow cytometric data analysis. By emulating some of its approaches and extending these with automation and rigor, flowScape provides a flexible and robust framework for computational cytomics.},
+             doi = {10.1371/journal.pone.0035693}
+}
+
+@article{enlighten68991,
+          volume = {108},
+           title = {On the upper bound of the number of modes of a multivariate normal mixture},
+          author = {S. Ray and D. Ren},
+            year = {2012},
+           pages = {41 -- 52},
+         journal = {Journal of Multivariate Analysis},
+        keywords = {Mixture; Modal cluster; Multivariate mode; Clustering; Dimension reduction; Topography; Manifold},
+             url = {https://eprints.gla.ac.uk/68991/},
+        abstract = {The main result of this article states that one can get as many as D+1 modes from just a two component normal mixture in D dimensions. Multivariate mixture models are widely used for modeling homogeneous populations and for cluster analysis. Either the components directly or modes arising from these components are often used to extract individual clusters. Although in lower dimensions these strategies work well, our results show that high dimensional mixtures are often very complex and researchers should take extra precautions when using mixture models for cluster analysis. Further our analysis shows that the number of modes depends on the component means and eigenvalues of the ratio of the two component covariance matrices, which in turn provides a clear guideline as to when one can use mixture analysis for clustering high dimensional data.},
+             doi = {10.1016/j.jmva.2012.02.006}
+}
+
+@article{enlighten68998,
+          volume = {723},
+          number = {7},
+          author = {D.S. DeLuca and O. Marina and S. Ray and G.L. Zhang and C.J. Wu and V. Brusic},
+       booktitle = {Protein Microarray for Disease Analysis},
+           title = {Data processing and analysis for protein microarrays},
+         journal = {Methods in Molecular Biology},
+           pages = {337--347},
+            year = {2011},
+             url = {https://eprints.gla.ac.uk/68998/},
+             doi = {10.1007/978-1-61779-043-0\_21}
+}
+
+@article{enlighten68996,
+          volume = {12},
+          number = {1},
+           title = {Top scoring pairs for feature selection in machine learning and applications to cancer outcome prediction},
+          author = {P. Shi and S. Ray and Q. Zhu and M.A. Kon},
+            year = {2011},
+           pages = {375--375},
+         journal = {BMC Bioinformatics},
+             url = {https://eprints.gla.ac.uk/68996/},
+        abstract = {\&lt;b\&gt;Background\&lt;/b\&gt;
+
+The widely used k top scoring pair (k-TSP) algorithm is a simple yet powerful parameter-free classifier. It owes its success in many cancer microarray datasets to an effective feature selection algorithm that is based on relative expression ordering of gene pairs. However, its general robustness does not extend to some difficult datasets, such as those involving cancer outcome prediction, which may be due to the relatively simple voting scheme used by the classifier. We believe that the performance can be enhanced by separating its effective feature selection component and combining it with a powerful classifier such as the support vector machine (SVM). More generally the top scoring pairs generated by the k-TSP ranking algorithm can be used as a dimensionally reduced subspace for other machine learning classifiers.\&lt;p\&gt;\&lt;/p\&gt;
+
+\&lt;b\&gt;Results\&lt;/b\&gt;
+
+We developed an approach integrating the k-TSP ranking algorithm (TSP) with other machine learning methods, allowing combination of the computationally efficient, multivariate feature ranking of k-TSP with multivariate classifiers such as SVM. We evaluated this hybrid scheme (k-TSP+SVM) in a range of simulated datasets with known data structures. As compared with other feature selection methods, such as a univariate method similar to Fisher's discriminant criterion (Fisher), or a recursive feature elimination embedded in SVM (RFE), TSP is increasingly more effective than the other two methods as the informative genes become progressively more correlated, which is demonstrated both in terms of the classification performance and the ability to recover true informative genes. We also applied this hybrid scheme to four cancer prognosis datasets, in which k-TSP+SVM outperforms k-TSP classifier in all datasets, and achieves either comparable or superior performance to that using SVM alone. In concurrence with what is observed in simulation, TSP appears to be a better feature selector than Fisher and RFE in some of the cancer datasets.\&lt;p\&gt;\&lt;/p\&gt;
+
+\&lt;b\&gt;Conclusions\&lt;/b\&gt;
+
+The k-TSP ranking algorithm can be used as a computationally efficient, multivariate filter method for feature selection in machine learning. SVM in combination with k-TSP ranking algorithm outperforms k-TSP and SVM alone in simulated datasets and in some cancer prognosis datasets. Simulation studies suggest that as a feature selector, it is better tuned to certain data characteristics, i.e. correlations among informative genes, which is potentially interesting as an alternative feature ranking method in pathway analysis.},
+             doi = {10.1186/1471-2105-12-375}
+}
+
+@article{enlighten68997,
+          volume = {72},
+          number = {2},
+           month = {November},
+          author = {S. Ray},
+           title = {Discussion of "Projection pursuit via white noise matrices"
+by G. Hui and B. Lindsay},
+         journal = {Sankhya B},
+           pages = {147--151},
+            year = {2010},
+             url = {https://eprints.gla.ac.uk/68997/},
+             doi = {10.1007/s13571-011-0008-x}
+}
+
+@article{enlighten68999,
+          volume = {9},
+          number = {1},
+           title = {Evaluation of MHC class I peptide binding prediction servers: applications for vaccine research},
+          author = {H. Lin and S. Ray and S. Tongchusak and E.L. Reinherz and V. Brusic},
+            year = {2008},
+           pages = {8--8},
+         journal = {BMC Immunology},
+             url = {https://eprints.gla.ac.uk/68999/},
+        abstract = {\&lt;b\&gt;Background\&lt;/b\&gt;
+
+Protein antigens and their specific epitopes are formulation targets for epitope-based vaccines. A number of prediction servers are available for identification of peptides that bind major histocompatibility complex class I (MHC-I) molecules. The lack of standardized methodology and large number of human MHC-I molecules make the selection of appropriate prediction servers difficult. This study reports a comparative evaluation of thirty prediction servers for seven human MHC-I molecules.\&lt;p\&gt;\&lt;/p\&gt;
+
+\&lt;b\&gt;Results\&lt;/b\&gt;
+
+Of 147 individual predictors 39 have shown excellent, 47 good, 33 marginal, and 28 poor ability to classify binders from non-binders. The classifiers for HLA-A*0201, A*0301, A*1101, B*0702, B*0801, and B*1501 have excellent, and for A*2402 moderate classification accuracy. Sixteen prediction servers predict peptide binding affinity to MHC-I molecules with high accuracy; correlation coefficients ranging from r = 0.55 (B*0801) to r = 0.87 (A*0201).\&lt;p\&gt;\&lt;/p\&gt;
+
+\&lt;b\&gt;Conclusion\&lt;/b\&gt;
+
+Non-linear predictors outperform matrix-based predictors. Most predictors can be improved by non-linear transformations of their raw prediction scores. The best predictors of peptide binding are also best in prediction of T-cell epitopes. We propose a new standard for MHC-I binding prediction ? a common scale for normalization of prediction scores, applicable to both experimental and predicted data. The results of this study provide assistance to researchers in selection of most adequate prediction tools and selection criteria that suit the needs of their projects.},
+             doi = {10.1186/1471-2172-9-8}
+}
+
+@article{enlighten69109,
+          volume = {36},
+          number = {2},
+           title = {Quadratic distances on probabilities: A unified foundation},
+          author = {B.G. Lindsay and M. Markatou and S. Ray and K. Yang and S.-C. Chen},
+            year = {2008},
+           pages = {983--1006},
+         journal = {Annals of Statistics},
+        keywords = {Degrees of freedom; diffusion kernel; goodness of fit; high dimensions; model assessment; quadratic distance; spectral decomposition},
+             url = {https://eprints.gla.ac.uk/69109/},
+        abstract = {This work builds a unified framework for the study of quadratic form distance measures as they are used in assessing the goodness of fit of models. Many important procedures have this structure, but the theory for these methods is dispersed and incomplete. Central to the statistical analysis of these distances is the spectral decomposition of the kernel that generates the distance. We show how this determines the limiting distribution of natural goodness-of-fit tests. Additionally, we develop a new notion, the spectral degrees of freedom of the test, based on this decomposition. The degrees of freedom are easy to compute and estimate, and can be used as a guide in the construction of useful procedures in this class.},
+             doi = {10.1214/009053607000000956}
+}
+
+@article{enlighten68987,
+          volume = {70},
+          number = {1},
+           title = {Model selection in high dimensions: a quadratic-risk-based approach},
+          author = {S. Ray and B.G. Lindsay},
+            year = {2008},
+           pages = {95--118},
+         journal = {Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
+             url = {https://eprints.gla.ac.uk/68987/},
+        abstract = {We propose a general class of risk measures which can be used for data-based evaluation of parametric models. The loss function is defined as the generalized quadratic distance between the true density and the model proposed. These distances are characterized by a simple quadratic form structure that is adaptable through the choice of a non-negative definite kernel and a bandwidth parameter. Using asymptotic results for the quadratic distances we build a quick-to-compute approximation for the risk function. Its derivation is analogous to the Akaike information criterion but, unlike the Akaike information criterion, the quadratic risk is a global comparison tool. The method does not require resampling, which is a great advantage when point estimators are expensive to compute. The method is illustrated by using the problem of selecting the number of components in a mixture model, where it is shown that, by using an appropriate kernel, the method is computationally straightforward in arbitrarily high data dimensions. In this same context it is shown that the method has some clear advantages over the Akaike information criterion and Bayesian information criterion.},
+             doi = {10.1111/j.1467-9868.2007.00623.x}
+}
+
+@article{enlighten69110,
+          volume = {8},
+           month = {August},
+           title = {A nonparametric statistical approach to clustering via mode identification},
+          author = {J. Li and S. Ray and B.G. Lindsay},
+            year = {2007},
+           pages = {1687--1723},
+         journal = {Journal of Machine Learning Research: Proceedings Track},
+             url = {https://eprints.gla.ac.uk/69110/},
+        abstract = {A new clustering approach based on mode identification is developed by applying new optimization techniques to a nonparametric density estimator. A cluster is formed by those sample points that ascend to the same local maximum (mode) of the density function. The path from a point to its associated mode is efficiently solved by an EM-style algorithm, namely, the Modal EM (MEM). This method is then extended for hierarchical clustering by recursively locating modes of kernel density estimators with increasing bandwidths. Without model fitting, the mode-based clustering yields a density description for every cluster, a major advantage of mixture-model-based clustering. Moreover, it ensures that every cluster corresponds to a bump of the density. The issue of diagnosing clustering results is also investigated. Specifically, a pairwise separability measure for clusters is defined using the ridgeline between the density bumps of two clusters. The ridgeline is solved for by the Ridgeline EM (REM) algorithm, an extension of MEM. Based upon this new measure, a cluster merging procedure is created to enforce strong separation. Experiments on simulated and real data demonstrate that the mode-based clustering approach tends to combine the strengths of linkage and mixture-model-based clustering. In addition, the approach is robust in high dimensions and when clusters deviate substantially from Gaussian distributions. Both of these cases pose difficulty for parametric mixture modeling. A C package on the new algorithms is developed for public access at http://www.stat.psu.edu/{$\sim$}jiali/hmac.}
+}
+
+@misc{enlighten165758,
+       booktitle = {Medical Imaging 2007: Image Processing},
+          volume = {6512},
+           title = {Signaling local non-credibility in an automatic segmentation pipeline},
+          author = {Joshua H. Levy and Joseph M. Reinhardt and Robert E. Broadhurst and Surajit Ray and Edward L. Chaney and Stephen M. Pizer},
+            year = {2007},
+             url = {https://eprints.gla.ac.uk/165758/},
+        abstract = {The advancing technology for automatic segmentation of medical images should be accompanied by techniques to inform the user of the local credibility of results. To the extent that this technology produces clinically acceptable segmentations for a significant fraction of cases, there is a risk that the clinician will assume every result is acceptable. In the less frequent case where segmentation fails, we are concerned that unless the user is alerted by the computer, she would still put the result to clinical use. By alerting the user to the location of a likely segmentation failure, we allow her to apply limited validation and editing resources where they are most needed. We propose an automated method to signal suspected non-credible regions of the segmentation, triggered by statistical outliers of the local image match function. We apply this test to m-rep segmentations of the bladder and prostate in CT images using a local image match computed by PCA on regional intensity quantile functions. We validate these results by correlating the non-credible regions with regions that have surface distance greater than 5.5mm to a reference segmentation for the bladder. A 6mm surface distance was used to validate the prostate results. Varying the outlier threshold level produced a receiver operating characteristic with area under the curve of 0.89 for the bladder and 0.92 for the prostate. Based on this preliminary result, our method has been able to predict local segmentation failures and shows potential for validation in an automatic segmentation pipeline.},
+             doi = {10.1117/12.709015}
+}
+
+@article{enlighten69000,
+          volume = {3},
+          number = {1},
+           title = {Amino acid biophysical properties in the statistical prediction of peptide-MHC class I binding},
+          author = {S. Ray and T.B. Kepler},
+            year = {2007},
+           pages = {9--9},
+         journal = {Immunome Research},
+             url = {https://eprints.gla.ac.uk/69000/},
+        abstract = {\&lt;b\&gt;Background\&lt;/b\&gt;
+
+A key step in the development of an adaptive immune response to pathogens or vaccines is the binding of short peptides to molecules of the Major Histocompatibility Complex (MHC) for presentation to T lymphocytes, which are thereby activated and differentiate into effector and memory cells. The rational design of vaccines consists in part in the identification of appropriate peptides to effect this process. There are several algorithms currently in use for making such predictions, but these are limited to a small number of MHC molecules and have good but imperfect prediction power.\&lt;p\&gt;\&lt;/p\&gt;
+
+\&lt;b\&gt;Results\&lt;/b\&gt;
+
+We have undertaken an exploration of the power gained by taking advantage of a natural representation of the amino acids in terms of their biophysical properties. We used several well-known statistical classifiers using either a naive encoding of amino acids by name or an encoding by biophysical properties. In all cases, the encoding by biophysical properties leads to substantially lower misclassification error.\&lt;p\&gt;\&lt;/p\&gt;
+
+\&lt;b\&gt;Conclusion\&lt;/b\&gt;
+
+Representation of amino acids using a few important bio-physio-chemical property provide a natural basis for representing peptides and greatly improves peptide-MHC class I binding prediction.},
+             doi = {10.1186/1745-7580-3-9}
+}
+
+@misc{enlighten69004,
+       booktitle = {1st MICCAI Workshop on Mathematical Foundations of Computational Anatomy: Geometrical, Statistical and Registration Methods for Modeling Biological Shape Variability},
+           title = {Statistics on anatomic objects reflecting inter-object relations},
+          author = {J. Jeong and S.M. Pizer and S. Ray},
+         address = {Copenhagen, Denmark},
+            year = {2006},
+           pages = {136--145},
+             url = {https://eprints.gla.ac.uk/69004/},
+        abstract = {Describing the probability densities of multi-object complexes by describing individual objects and their inter-object relationships leads to desirable locality without ignoring the context of an object. We describe a means of decomposing object variations into self effects and neighbor effects. We describe an approach for estimating the self and neighbor effect probability densities for each object in the complex using augmentation and prediction, supported by PGA on m-reps. We apply this method to the inter-day variation of m-reps of male pelvic organs within an individual patient.}
+}
+
+@article{enlighten68994,
+          volume = {33},
+          number = {5},
+           title = {The topography of multivariate normal mixtures},
+          author = {S. Ray and B.G. Lindsay},
+            year = {2005},
+           pages = {2042--2065},
+         journal = {Annals of Statistics},
+        keywords = {Mixture; modal cluster; multivariate mode; clustering; dimension reduction; topography; manifold},
+             url = {https://eprints.gla.ac.uk/68994/},
+             doi = {10.1214/009053605000000417}
+}
+
+@article{enlighten68988,
+          volume = {51},
+          number = {3},
+           title = {Improved power in multinomial goodness-of-fit tests},
+          author = {A. Basu and S. Ray and C. Park and S. Basu},
+            year = {2002},
+           pages = {381--393},
+         journal = {Journal of the Royal Statistical Society: Series D (The Statistician)},
+        keywords = {disparities; empty cell penalty; power divergence},
+             url = {https://eprints.gla.ac.uk/68988/},
+        abstract = {Pearson's {\ensuremath{\chi}}2- and the log-likelihood ratio {\ensuremath{\chi}}2-statistics are fundamental tools in goodness-of-fit testing. Cressie and Read constructed a general family of divergences which includes both statistics as special cases. This family is indexed by a single parameter, and divergences at either end of the scale are more powerful against alternatives of one type while being rather poor against the opposite type. Here we present several new goodness-of-fit testing procedures which have reasonably high powers for both kinds of alternative. Graphical studies illustrate the advantages of the new methods.},
+             doi = {10.1111/1467-9884.00325}
+}
+
+@inproceedings{enlighten277261,
+       booktitle = {14th SINAPSE Annual Scientific Meeting},
+           title = {Analysis of Positron Emission Tomography Data for Tumour Detection and Delineation},
+          author = {Wenhui Zhang and Surajit Ray},
+             url = {https://eprints.gla.ac.uk/277261/},
+        abstract = {Recent developments in statistical image analysis and machine learning are culminating towards developing innovative tools for automatic analysis of three-dimensional radiological images {--} PET (Positron Emission Tomography) images. Statistical imaging together with other machine learning techniques are the epitome of digitalizing healthcare and offers many opportunities for providing patients with personalized medicine/therapy and reducing the cost of diagnosis/treatment. However, the three major challenges in radiology are: (1) increasing demand for medical imaging; (2) decreasing turnaround times caused by mass data; (3) diagnostic accuracy that should lead to a quantification of images. To address these challenges along with ethical issues regarding the use of Artificial Intelligence in patient care, there is a need to develop a new framework of statistical analysis which can be readily used by clinicians and can be trained with a relatively lower number of samples. In this project, we have developed a kernel-based method on PET image segmentation which will be more direct for tumour detection, delineation, monitoring and radiotherapy planning. We are currently working on combing other complementary information, such as CT(Computed tomography) images. The kernel-based method is a non-parametric regression technique which can corporate 3D information for a set of images. It is also computational efficient and can produce reproductive and robust results compared with other statistical methods. A huge advantage is that our kernel-based method builds up a surface over images which produces continuous contour-based results rather than traditional binary results, thus mimicking human observers? behaviour. Another advantage of the kernel-based methods is that there is a great potential for developing a probabilistic approach with uncertainty measurement along with the segmentation.}
+}
+
