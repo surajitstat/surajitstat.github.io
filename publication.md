@@ -1,13 +1,22 @@
 ---
-title: Publication
+title: Publications 
 layout: pageleft
 ---
 
+    
 
+<div class="row">
+Find my publications at 
+<a href="https://scholar.google.com/citations?hl=en&user=---SARsAAAAJ&view_op=list_works&sortby=pubdate"> <i class="ai ai-google-scholar ai-2x" style="vertical-align:middle;"></i> </a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/?term=Ray+Surajit"> <i class="ai ai-pubmed ai-2x" style="vertical-align:middle;"></i> </a>
+<a href="https://www.semanticscholar.org/author/Surajit-Ray/1901464"> <i class="ai ai-semantic-scholar ai-2x" style="vertical-align:middle;"></i> </a>
+<a href="https://arxiv.org/search/?query=Ray%2C+Surajit&searchtype=author&abstracts=show&order=-announced_date_first&size=50"> <i class="ai ai-arxiv ai-2x" style="vertical-align:middle;"></i> </a>
+<a href="https://www.researchgate.net/profile/Surajit-Ray/research"> <i class="ai ai-researchgate ai-2x" style="vertical-align:middle;"></i> </a>
+<a href="https://orcid.org/0000-0003-3965-8136"> <i class="ai ai-orcid ai-2x" style="vertical-align:middle;"></i> </a>
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" alt="Google Scholar" style="height:3ex;"/>](https://scholar.google.com/citations?hl=en&user=---SARsAAAAJ&view_op=list_works&sortby=pubdate) 
-[<img src="https://cdn.ncbi.nlm.nih.gov/pubmed/dbb2c923-e69d-4dd7-9b00-7fb86f76a690/core/images/pubmed-logo-blue.svg" alt="drawing" style="height:3ex;"/>](https://pubmed.ncbi.nlm.nih.gov/?term=Ray+Surajit)
-[<img src="https://assets-global.website-files.com/605236bb767e9a5bb229c63c/605274dd4af9b0ca8ac84182_s2-logo.svg" alt="Semantic Scholar" style="height:3ex;"/>](https://www.semanticscholar.org/author/Surajit-Ray/1901464?sort=influence&page=2)
+    
+</div>
+
 
 Number of items: **41**.
 
