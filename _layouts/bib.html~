@@ -1,0 +1,37 @@
+
+<style>
+  .boxed {
+      border-bottom: 1px solid  gray ;
+      padding-left : 5px;
+  }
+  .div-1 {
+      background-color: #EBEBEB;
+            padding-left : 5px;
+
+    }
+ </style> 
+
+<div id="{{key}}-materials" class="boxed">
+  <div class="div-1">
+    <b>{{entry.title}}</b>    ({{entry.year}})  <br>
+      <i><b> <font color="gray"> {{entry.journal}}</font> </b></i>
+  </div>
+    <small>{{entry.author}}</small><br>
+   {% if entry.abstract %}
+    <details>
+      <summary>Abstract</summary>
+      <p><font size="2" color="gray">{{ entry.abstract }}</font></p>
+    </details>
+    {% endif %}
+    <details>
+      <summary>Cite</summary>
+      <pre>{{ entry.bibtex }}</pre>
+    </details>
+    {% if entry.url %}
+    <a href="{{ entry.url }}">Link</a>
+    {% endif %}
+    {% if entry.doi %}
+     | <a href="https://doi.org/{{ entry.doi }}">DOI</a>
+    {% endif %}
+</div>
+
