@@ -6,35 +6,31 @@ layout: pageleft
 ## Current Courses at University of Glasgow
 
 
-* [Functional Data Analyis](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS4073) 
-
-* [Predictive Modelling (ODL)](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5076)
+* `UoG` `4H` `5M` [Functional Data Analyis](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS4073) 
+ 
+* `UoG` `ODL` [Predictive Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5076)
 
 ## Datacamp course
-* [Multivariate Probability Distributions in R](https://www.datacamp.com/courses/multivariate-probability-distributions-in-r) <img src="assets/images/datacamp.png" alt="drawing" style="height:2ex;"/>
+* `Datacamp` [Multivariate Probability Distributions in R](https://www.datacamp.com/courses/multivariate-probability-distributions-in-r) <img src="assets/images/datacamp.png" alt="drawing" style="height:2ex;"/>
 
-## Previous Courses at University of Glasgow
+## Previous Courses 
 
+* `UoG` `5M` [Regression Models](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5025)
+* `UoG` `5M` `4H` Computational Inference
 
-* [Regression Models](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5025)
-* Computational Inference
+* `BU` [Math 882- Functional Data Analysis](http://math.bu.edu/people/sray/teaching/math882/)
 
+* `BU` [Math 584- Multivariate Analysis (Spring 2007, Spring 2009 )](http://math.bu.edu/people/sray/teaching/math584/)
 
-## Previous Courses taught at Boston University
+* `BU` [Math 576- Generalized Linear Models (Spring 2007, 2008, 2009 )](http://math.bu.edu/people/sray/teaching/math576/) 
 
-* [Math 882- Functional Data Analysis](http://math.bu.edu/people/sray/teaching/math882/)
+* `BU` [Math 881- Topics in High Dimensional Data Analysis (Fall 2007)](http://math.bu.edu/people/sray/teaching/math881/)
 
-* [Math 584- Multivariate Analysis (Spring 2007, Spring 2009 )](http://math.bu.edu/people/sray/teaching/math584/)
-
-* [Math 576- Generalized Linear Models (Spring 2007, 2008, 2009 )](http://math.bu.edu/people/sray/teaching/math576/) 
-
-* [Math 881- Topics in High Dimensional Data Analysis (Fall 2007)](http://math.bu.edu/people/sray/teaching/math881/)
-
-* [Math 586- Design of Experiments (Fall 2006)](http://math.bu.edu/people/sray/math586/) 
+* `BU` [Math 586- Design of Experiments (Fall 2006)](http://math.bu.edu/people/sray/math586/) 
 
 
-## Previous Courses taught at University of North Carolina
 
-* Principles of Statistical Inference 
 
-* Principles Of Experimental Analysis
+* `UNC` Principles of Statistical Inference 
+
+* `UNC` Principles Of Experimental Analysis

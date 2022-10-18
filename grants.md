@@ -30,20 +30,20 @@ layout: pageleft
 ## Studentship and other commercial grants
 - `Carnegie` Trust studentship: [Wenhui Zhang](https://www.carnegie-trust.org/alumni/wenhui-zhang-2/) Role: PI 2020-2024
 
-- `EPSRC`-Industry studentship: Generation of synthetic medical histories for clinical decision support - a connected approach (£30,000) Role: PI 2018-2021
+- `EPSRC`-Industry studentship: [Generation of synthetic medical histories for clinical decision support - a connected approach](https://gtr.ukri.org/projects?ref=studentship-1953204) (£70,000) Role: PI 2018-2021
 
-- `SFC` Scottish Funding Council: Datalab MSc Scholarship (£87,360) 01/10/201-30/09/2019
+- `SFC` Scottish Funding Council: [Datalab MSc Scholarship](https://thedatalab.com/students/scholarships/) (£87,360) 01/10/201-30/09/2019
 
-- `SFC` Scottish Funding Council:  Datalab MSc Scholarship (£27,800) 01/10/2016-30/09/2018
+- `SFC` Scottish Funding Council:  [Datalab MSc Scholarship](https://thedatalab.com/students/scholarships/) (£27,800) 01/10/2016-30/09/2018
 
-- `ESF` European Social Fund: Datalab MSc Scholarship (£96,360) 01/10/2018-30/09/2020
+- `ESF` European Social Fund: [Datalab MSc Scholarship](https://thedatalab.com/students/scholarships/) (£96,360) 01/10/2018-30/09/2020
 
 ## Workshop Grants
 
 
 
-- `BIRS` Banff International Research Station for Mathematical Innovation and Discovery workshop grant:*Frontiers in Functional Data Analysis For operation reasons, this grant was administered by Banff International Research Station, Banff, Canada (£ 70,000)
+- `BIRS` Banff International Research Station for Mathematical Innovation and Discovery workshop grant:*[Frontiers in Functional Data Analysis For operation reasons, this grant was administered by Banff International Research Station, Banff, Canada](https://www.birs.ca/events/2015/5-day-workshops/15w5096) (£ 70,000)
 
-- `EPSRC` and `DST (India)` workshop grant: Solving Big Data Challenges in Modern Science through Statistical Modelling data Analysis. For operational reasons this grant was administered through International Centre for Mathematical Sciences (ICMS), Edinburgh, U. K. Co-organizer: Mayetri Gupta (£ 50,000)
+- `EPSRC` and `DST (India)` workshop grant: [Solving Big Data Challenges in Modern Science through Statistical Modelling data Analysis](https://www.icms.org.uk/workshops/2015/solving-big-data-challenges-modern-science-through-statistical-modelling). For operational reasons this grant was administered through International Centre for Mathematical Sciences (ICMS), Edinburgh, U. K. Co-organizer: Mayetri Gupta (£ 50,000)
 
 
