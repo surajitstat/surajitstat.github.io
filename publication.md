@@ -22,11 +22,12 @@ li {
 }
 
 li:before {
-  content: '\f000';
+  content: '\f02d';
   font-family: 'FontAwesome';
   float: left;
   margin-left: -1.5em;
-  color: #0074D9;
+  color:  #666666;
+  font-size: 3ex;
 }
 </style>
   

@@ -2,6 +2,38 @@
 title: Research Grants
 layout: pageleft
 ---
+
+
+<style>
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul {
+  margin: 2em 0;
+}
+
+li {
+  margin: 1em;
+  margin-left: 3em;
+}
+
+li:before {
+  content: '\f006';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color:  #666666;
+  font-size: 2ex;
+}
+</style>
+  
+
+
 ## Major Grants 
 
 
