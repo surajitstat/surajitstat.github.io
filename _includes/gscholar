@@ -170,7 +170,8 @@
       </li>
     {% elsif style == "surajit" %}
       <li>
-      <b> {{ title_link }}. </b> <br> {{ formatted_author_list | split: ";" | join: ", " }}.  {{citation.Publication}}. {{citation.Year}}.
+        <b>{{ title_link }}. </b><br>
+         <small> <small>{{ formatted_author_list | split: ";" | array_to_sentence_string }}</small></small> <br> <em>{{citation.Publication}}</em>.  {{citation.Year}}.
       </li>
      
     {% endif %}

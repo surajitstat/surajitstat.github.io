@@ -29,6 +29,12 @@ li:before {
   color:  #666666;
   font-size: 3ex;
 }
+
+auth {
+  color:  #666666;
+}
+
+
 </style>
   
 
