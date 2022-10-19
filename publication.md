@@ -49,6 +49,18 @@ Find my publications at
 
 Number of items: **41**.
 
+## All publications
+
+<details>
+<summary><i>All publications</i></summary>
+{% include gscholar include_link="true" style="surajit" %}
+</details>
+<br/>
+
+
+
+
+
 
 
 <h2> 2022 </h2>
