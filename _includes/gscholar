@@ -174,8 +174,16 @@
     {% elsif style == "surajit" %}
       <li>
       <button>{{citation.Year}}</button>
-        <b>{{ title_link }}. </b><br>
-         <auth>{{ formatted_author_list | split: ";" | array_to_sentence_string }}</auth> <br> <em>{{citation.Publication}}</em>. 
+       <span class="has-text-black has-text-weight-semibold"> {{ title_link }} </span><br>
+         <auth>{{ formatted_author_list | split: ";" | array_to_sentence_string }}</auth> <br> <em>{{citation.Publication}}</em>.
+	 <details>
+   	  <summary>
+	 Abstract
+	  </summary>
+	  <hr class="abs">
+	   <p class="has-text-weight-light"> {{citation.Abstract}} </p>
+	  <hr class="abs">
+	  </details>
       </li>
      
     {% endif %}

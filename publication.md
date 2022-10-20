@@ -52,9 +52,13 @@ margin-left: 5px;
 
 }
 
+hr.abs {
+  border-top: 1px solid orange;
+}
+
 </style>
 
-
+<!--
 <div class="columns has-text-centered is-vcentered">
 Find my publications at 
 
@@ -113,7 +117,7 @@ Research Gate
 </div>
 
 
-
+-->
 
 
 
