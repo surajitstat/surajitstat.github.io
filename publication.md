@@ -30,8 +30,14 @@ li:before {
   font-size: 3ex;
 }
 
-auth {
-  color:  #666666;
+li auth {
+  color: gray  ;
+  font-size: small;
+}
+
+li code {
+  color: gray ;
+  background: none;
 }
 
 
@@ -57,9 +63,9 @@ Number of items: **41**.
 
 ## All publications
 
-<details>
+<details open>
 <summary><i>All publications</i></summary>
-{% include gscholar include_link="true" style="surajit" %}
+{% include gscholar include_link=true style="surajit"  %}
 </details>
 <br/>
 

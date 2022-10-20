@@ -25,6 +25,7 @@
 {% assign counter = 0 %}
 
 
+
 <ol>
 {% for citation in pub_list %}
   {% if include.venue %}
@@ -145,13 +146,15 @@
       {% endfor %}
     {% endif %}
     
-    {% if include_link==true %}
+   {% if include_link==true %}
       {% assign url = citation.Title | cgi_escape | prepend: "https://scholar.google.com/scholar?q=" %}
       {% capture title_link %}<a href="{{ url }}">{{citation.Title}}</a>{% endcapture %}
     {% else %}
       {% assign title_link = citation.Title %}
     {% endif %}
-    
+   
+
+
     {% if style == "mla" %}
       <li>
         {{ formatted_author_list | split: ";" | array_to_sentence_string }}. "{{ title_link }}." <em>{{citation.Publication}}</em> ({{citation.Year}}).
@@ -170,8 +173,9 @@
       </li>
     {% elsif style == "surajit" %}
       <li>
+      <button>{{citation.Year}}</button>
         <b>{{ title_link }}. </b><br>
-         <small> <small>{{ formatted_author_list | split: ";" | array_to_sentence_string }}</small></small> <br> <em>{{citation.Publication}}</em>.  {{citation.Year}}.
+         <auth>{{ formatted_author_list | split: ";" | array_to_sentence_string }}</auth> <br> <em>{{citation.Publication}}</em>. 
       </li>
      
     {% endif %}
