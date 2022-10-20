@@ -108,7 +108,7 @@
     {% assign last_names = "" %}
     {% assign first_names = "" %}
     {% for name in pub_authors %}
-      {% assign first_last = name | split: "," %}
+      {% assign first_last = name | split: " " %}
       {% assign first_names = first_names | append: first_last[1] %}
       {% assign last_names = last_names | append: first_last[0] %}
       {% if forloop.last == false %}
@@ -175,16 +175,44 @@
       <li>
       <button>{{citation.Year}}</button>
        <span class="has-text-black has-text-weight-semibold"> {{ title_link }} </span><br>
-         <auth>{{ formatted_author_list | split: ";" | array_to_sentence_string }}</auth> <br> <em>{{citation.Publication}}</em>.
+	<auth>{{ citation_Authors | split: "," | array_to_sentence_string }} </auth>
+
+	  <br>
+	 <span class="is-italic has-text-weight-semibold " style="font-size: 1.7ex">
+	 {{citation.Publication}}. 
+	 {{citation.Volume}} </span>
+	 <span class="is-italic">
+	 {% if citation.Issue %}
+
+         ({{citation.Issue}})
+	 {% endif %}
+
+	 </span>
+	 <br>
+
+<div style="font-size: 1.6ex">
+
+<a href="{{citation.Link}}">
+<i class="fa fa-link" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Scopus Link </a> | 
+        <a href="https://doi.org/{{citation.DOI}}"><i class="fa fa-external-link-square" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Journal Page  </a> |
+	 {% if citation.OpenAccess != "No"  %}
+	<img src = "assets/images/open_access.png" alt="Open Access icon" width="10ex" style="vertical-align:middle;"/>  Open Access |
+         {% endif %}
+
+
 	 <details>
    	  <summary>
 	 Abstract
 	  </summary>
 	  <hr class="abs">
-	   <p class="has-text-weight-light"> {{citation.Abstract}} </p>
-	  <hr class="abs">
+	   <p class="has-text-weight-light has-text-justified has-background-link-light" style="margin:10px;font-size: 1.5ex;" > {{citation.Abstract}} </p>
 	  </details>
+	  </div>
+   <hr class="abs">
+	  
       </li>
+
+ 
      
     {% endif %}
     

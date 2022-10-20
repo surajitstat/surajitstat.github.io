@@ -18,7 +18,7 @@ ul {
 
 li {
   margin: 1em;
-  margin-left: 3em;
+  margin-left: 1.5em;
 }
 
 li:before {
@@ -54,8 +54,10 @@ margin-left: 5px;
 
 hr.abs {
   border-top: 1px solid orange;
-}
+     margin: 3px;
+	}
 
+  
 </style>
 
 <!--
@@ -123,11 +125,10 @@ Research Gate
 
 
 
-Number of items: **41**.
 
 ## All publications
 
-<details open>
+<details open> 
 <summary><i>All publications</i></summary>
 {% include gscholar include_link=true style="surajit"  %}
 </details>
@@ -137,7 +138,7 @@ Number of items: **41**.
 
 
 
-
+<!--
 
 <h2> 2022 </h2>
 
@@ -269,3 +270,4 @@ Number of items: **41**.
 
 * Basu, A., [Ray, S.](http://eprints.gla.ac.uk/view/author/29278.html) [](http://orcid.org/0000-0003-3965-8136 "ORCID: 0000-0003-3965-8136") , Park, C. and Basu, S. (2002) [Improved power in multinomial goodness-of-fit tests.](https://eprints.gla.ac.uk/68988/) _[Journal of the Royal Statistical Society: Series D (The Statistician)](https://eprints.gla.ac.uk/view/journal_volume/Journal_of_the_Royal_Statistical_Society=3A_Series_D_=28The_Statistician=29.html)_, 51(3), pp. 381-393. (doi: [10.1111/1467-9884.00325](https://doi.org/10.1111/1467-9884.00325))
 
+-->
