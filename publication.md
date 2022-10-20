@@ -40,23 +40,83 @@ li code {
   background: none;
 }
 
+a.is-primary:hover {
+    color: red;
+}
+
+
+.btn1{
+
+margin-right: 5px;
+margin-left: 5px;
+
+}
 
 </style>
-  
 
-<div class="row">
+
+<div class="columns has-text-centered is-vcentered">
 Find my publications at 
-<span>
-<a href="https://scholar.google.com/citations?hl=en&user=---SARsAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" class="has-text-black"> <i class="ai ai-google-scholar ai-2x" style="vertical-align:middle;"></i> </a>
-</span>
-<a href="https://pubmed.ncbi.nlm.nih.gov/?term=Ray+Surajit" target="_blank" class="has-text-black"> <i class="ai ai-pubmed ai-2x" style="vertical-align:middle;"></i> </a>
-<a href="https://www.semanticscholar.org/author/Surajit-Ray/1901464" target="_blank" class="has-text-black"> <i class="ai ai-semantic-scholar ai-2x" style="vertical-align:middle;"></i> </a>
-<a href="https://arxiv.org/search/?query=Ray%2C+Surajit&searchtype=author&abstracts=show&order=-announced_date_first&size=50" target="_blank" class="has-text-black"> <i class="ai ai-arxiv ai-2x" style="vertical-align:middle;"></i> </a>
-<a href="https://www.researchgate.net/profile/Surajit-Ray/research" target="_blank" class="has-text-black"> <i class="ai ai-researchgate ai-2x" style="vertical-align:middle;"></i> </a>
-<a href="https://orcid.org/0000-0003-3965-8136" target="_blank" class="has-text-black"> <i class="ai ai-orcid ai-2x" style="vertical-align:middle;"></i> </a>
+
+<a href="https://scholar.google.com/citations?hl=en&user=---SARsAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" class="has-text-grey"> <button class="btn1"> <i class="ai ai-google-scholar ai-2x" style="vertical-align:middle;"></i> 
+Google Scholar </button>
+</a> 
+
+
+
+<a href="https://pubmed.ncbi.nlm.nih.gov/?term=Ray+Surajit" target="_blank" class="has-text-grey"> 
+<button class="btn1">
+<i class="ai ai-pubmed ai-2x" style="vertical-align:middle;"></i> 
+PubMed
+</button>
+</a>
+
+
+
+
+<a href="https://www.semanticscholar.org/author/Surajit-Ray/1901464" target="_blank" class="has-text-grey"> 
+<button class="btn1">
+<i class="ai ai-semantic-scholar ai-2x" style="vertical-align:middle;"></i> 
+Semantic Scholar
+</button>
+</a>
+
+<a href="https://arxiv.org/search/?query=Ray%2C+Surajit&searchtype=author&abstracts=show&order=-announced_date_first&size=50" target="_blank" class="has-text-grey"> 
+<button class="btn1">
+<i class="ai ai-arxiv ai-2x" style="vertical-align:middle;"></i>  AxXiv
+</button>
+</a> 
+
+
+
+
+
+<a href="https://www.researchgate.net/profile/Surajit-Ray/research" target="_blank" class="has-text-grey"> 
+<button class="btn1">
+<i class="ai ai-researchgate ai-2x" style="vertical-align:middle;"></i> 
+Research Gate
+</button>
+</a>
+
+
+
+<a href="https://orcid.org/0000-0003-3965-8136" target="_blank" class="has-text-grey"> 
+<button class="btn1">
+
+<i class="ai ai-orcid ai-2x" style="vertical-align:middle;"> </i> ORCID  
+</button>
+
+</a>
+
 
    
 </div>
+
+
+
+
+
+
 
 
 Number of items: **41**.
