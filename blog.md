@@ -2,4 +2,3 @@
 title: Research
 layout: blog
 ---
-

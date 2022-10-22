@@ -81,6 +81,7 @@ hr {
 $color-code-background: #d9d9d9;
 $color-code-color: #333399 ;
 $blue: hsl(201, 90%, 39%) ;
+$link: $blue;
 
 a {
     color: $blue;
@@ -191,3 +192,33 @@ hr.abs {
     color:hsl(0, 0%, 29%);
     background-color: hsl(0, 0%, 86%);
 }
+
+
+
+
+
+
+.grant li ul code 
+{
+  background-image: linear-gradient(#f7f8fa ,#e7e9ec);
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: $link;
+  font-family: 'Poppins', sans-serif;
+  outline: 0;
+  overflow: hidden;
+  padding: 1px 7px;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+

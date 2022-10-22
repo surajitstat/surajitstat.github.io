@@ -2,6 +2,7 @@
 title: Teaching
 layout: pageleft
 ---
+<div class="grant" markdown=1>
 
 ## Current Courses at University of Glasgow
 
@@ -9,9 +10,10 @@ layout: pageleft
 * `UoG` `4H` `5M` [Functional Data Analyis](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS4073) 
  
 * `UoG` `ODL` [Predictive Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5076)
+* `UoG` `ODL` [Data Analytics Project](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5093P)
 
 ## Datacamp course
-* `Datacamp` [Multivariate Probability Distributions in R](https://www.datacamp.com/courses/multivariate-probability-distributions-in-r) <img src="assets/images/datacamp.png" alt="drawing" style="height:2ex;"/>
+* `Datacamp` [Multivariate Probability Distributions in R](https://www.datacamp.com/courses/multivariate-probability-distributions-in-r) 
 
 ## Previous Courses 
 
@@ -34,3 +36,5 @@ layout: pageleft
 * `UNC` Principles of Statistical Inference 
 
 * `UNC` Principles Of Experimental Analysis
+
+</div>
