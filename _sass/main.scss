@@ -107,5 +107,50 @@ code {
 
 
 
+/* Definitions for publications */
 
 
+li.pub {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+
+li.pub {
+  margin: 1em;
+  margin-left: 1.5em;
+}
+
+li.pub:before {
+  content: '\f02d';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color:  #666666;
+  font-size: 3ex;
+}
+
+li.pub auth {
+  color: gray  ;
+  font-size: small;
+}
+
+li.pub code {
+  color: gray ;
+  background: none;
+}
+
+
+.btn1{
+
+margin-right: 5px;
+margin-left: 5px;
+
+}
+
+hr.abs {
+  border-top: 1px solid orange;
+     margin: 3px;
+	}

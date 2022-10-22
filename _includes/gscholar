@@ -172,7 +172,7 @@
         {{ formatted_author_list | split: ";" | array_to_sentence_string }}, {{citation.Year}}. {{ title_link }}. <em>{{citation.Publication}}</em>.
       </li>
     {% elsif style == "surajit" %}
-      <li>
+      <li class="pub">
       <button>{{citation.Year}}</button>
        <span class="has-text-black has-text-weight-semibold"> {{ title_link }} </span><br>
 	<auth>{{ citation_Authors | split: "," | array_to_sentence_string }} </auth>
@@ -192,12 +192,60 @@
 
 <div style="font-size: 1.6ex">
 
-<a href="{{citation.Link}}">
-<i class="fa fa-link" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Scopus Link </a> | 
-        <a href="https://doi.org/{{citation.DOI}}"><i class="fa fa-external-link-square" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Journal Page  </a> |
-	 {% if citation.OpenAccess != "No"  %}
-	<img src = "assets/images/open_access.png" alt="Open Access icon" width="10ex" style="vertical-align:middle;"/>  Open Access |
+
+{% if  {{citation.DOI}}  %}
+<a href="https://doi.org/{{citation.DOI}}"><i class="fa fa-external-link-square" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Journal Page  </a>
+|
+{% endif %}
+
+
+{% if  {{citation.['PubMed ID'] }}  %}
+<a href="https://pubmed.ncbi.nlm.nih.gov/{{citation.['PubMed ID']}}"><i class="ai ai-pubmed ai-lg" ></i>
+PubMed </a> |
+{% endif %}
+
+{% if  {{citation.PDF}}  %}
+<a href="{{citation.PDF}}">
+<i class="fa fa-link" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i> PDF </a>
+|
+{% endif %}
+
+
+{% if citation.OpenAccess != "No"  %}
+<a href="https://doi.org/{{citation.DOI}}" title="{{citation.OpenAccess | remove: "All Open Access, " ')}}">
+<i class="ai ai-open-access ai-lg" style="vertical-align:middle;"></i> 
+Open Access </a>|
          {% endif %}
+
+
+{% if  {{citation.Link}}  %}
+<a href="{{citation.Link}}">
+<i class="fa fa-link" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Scopus Link </a>
+|
+{% endif %}
+
+
+<a href="https://api.crossref.org/works/{{citation.DOI}}/transform/application/x-bibtex" 
+  target="popup" 
+  onclick="window.open('https://api.crossref.org/works/{{citation.DOI}}/transform/application/x-bibtex','popup','width=600,height=300,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no'
+); return false;">
+    Cite
+</a>
+|
+
+
+
+
+
+{% if  {{citation.'paper_id'}}  %}
+<a href="https://www.semanticscholar.org/paper/{{citation.'paper_id'}}#citing-papers">
+<i class="fa fa-quote-left" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Citing Papers </a>
+|
+{% endif %}
+
+
+
+
 
 
 	 <details>
