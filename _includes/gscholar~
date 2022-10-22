@@ -14,27 +14,15 @@
   {% assign searchterms = include.title_search | downcase | split: ";" %}
 {% endif %}
 
-
-{% if author.title_search %}
-  {% assign author_searchterms = include.title_search | downcase | split: ";" %}
-{% endif %}
-
 {% if include.venue_search %}
   {% assign venue_searchterms = include.venue_search | downcase | split: ";" %}
 {% endif %}
-
-
-{% if include.venue_search %}
-  {% assign author_searchterms = include.author_search | downcase | split: ";" %}
-{% endif %}
-
 
 {% if include.author %}
   {% assign authors = include.author | downcase | split: ";" %}
 {% endif %}
 
 {% assign counter = 0 %}
-
 
 
 <ol>
@@ -83,10 +71,6 @@
   {% else %}
     {% assign is_venue_search = true %}
   {% endif %}
-
-
-
-
   
   {% if include.author %}
     {% capture citation_Authors %}
@@ -123,7 +107,7 @@
     {% assign last_names = "" %}
     {% assign first_names = "" %}
     {% for name in pub_authors %}
-      {% assign first_last = name | split: " " %}
+      {% assign first_last = name | split: "," %}
       {% assign first_names = first_names | append: first_last[1] %}
       {% assign last_names = last_names | append: first_last[0] %}
       {% if forloop.last == false %}
@@ -161,15 +145,13 @@
       {% endfor %}
     {% endif %}
     
-   {% if include_link==true %}
+    {% if include_link==true %}
       {% assign url = citation.Title | cgi_escape | prepend: "https://scholar.google.com/scholar?q=" %}
       {% capture title_link %}<a href="{{ url }}">{{citation.Title}}</a>{% endcapture %}
     {% else %}
       {% assign title_link = citation.Title %}
     {% endif %}
-   
-
-
+    
     {% if style == "mla" %}
       <li>
         {{ formatted_author_list | split: ";" | array_to_sentence_string }}. "{{ title_link }}." <em>{{citation.Publication}}</em> ({{citation.Year}}).
@@ -187,95 +169,9 @@
         {{ formatted_author_list | split: ";" | array_to_sentence_string }}, {{citation.Year}}. {{ title_link }}. <em>{{citation.Publication}}</em>.
       </li>
     {% elsif style == "surajit" %}
-      <li class="pub">
-      <button>{{citation.Year}}</button>
-       <span class="has-text-black has-text-weight-semibold"> {{ title_link }} </span><br>
-	<auth>{{citation.Authors | split: "," | array_to_sentence_string | truncate: 400}} </auth>
-
-	  <br>
-	 <span class="is-italic has-text-weight-semibold " style="font-size: 1.7ex">
-	 {{citation.Publication}}. 
-	 {{citation.Volume}} </span>
-	 <span class="is-italic">
-	 {% if citation.Issue %}
-
-         ({{citation.Issue}})
-	 {% endif %}
-
-	 </span>
-	 <br>
-
-<div style="font-size: 1.6ex">
-
-
-{% if  {{citation.DOI}}  %}
-<a href="https://doi.org/{{citation.DOI}}"><i class="fa fa-external-link-square" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Journal Page  </a>
-|
-{% endif %}
-
-
-{% if  {{citation.['PubMed ID'] }}  %}
-<a href="https://pubmed.ncbi.nlm.nih.gov/{{citation.['PubMed ID']}}"><i class="ai ai-pubmed ai-lg" ></i>
-PubMed </a> |
-{% endif %}
-
-{% if  {{citation.PDF}}  %}
-<a href="{{citation.PDF}}">
-<i class="fa fa-link" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i> PDF </a>
-|
-{% endif %}
-
-
-{% if citation.OpenAccess != "No"  %}
-<a href="https://doi.org/{{citation.DOI}}" title="{{citation.OpenAccess | remove: "All Open Access, " ')}}">
-<i class="ai ai-open-access ai-lg" style="vertical-align:middle;"></i> 
-Open Access </a>|
-         {% endif %}
-
-
-{% if  {{citation.Link}}  %}
-<a href="{{citation.Link}}">
-<i class="fa fa-link" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Scopus Link </a>
-|
-{% endif %}
-
-
-<a href="https://api.crossref.org/works/{{citation.DOI}}/transform/application/x-bibtex" 
-  target="popup" 
-  onclick="window.open('https://api.crossref.org/works/{{citation.DOI}}/transform/application/x-bibtex','popup','width=600,height=300,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no'
-); return false;">
-    Cite
-</a>
-|
-
-
-
-
-
-{% if  {{citation.'paper_id'}}  %}
-<a href="https://www.semanticscholar.org/paper/{{citation.'paper_id'}}#citing-papers">
-<i class="fa fa-quote-left" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Citing Papers </a>
-|
-{% endif %}
-
-
-
-
-
-
-	 <details>
-   	  <summary>
-	 Abstract
-	  </summary>
-	  <hr class="abs">
-	   <p class="has-text-weight-light has-text-justified has-background-link-light" style="margin:10px;font-size: 1.5ex;" > {{citation.Abstract}} </p>
-	  </details>
-	  </div>
-   <hr class="abs">
-	  
+      <li>
+        {{ formatted_author_list | split: ";" | join: ", " }}. {{ title_link }}. {{citation.Publication}}. {{citation.Year}}.
       </li>
-
- 
      
     {% endif %}
     

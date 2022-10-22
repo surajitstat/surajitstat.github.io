@@ -1,0 +1,8 @@
+
+
+
+{% if  {{citation.DOI}}  %}
+<a href="https://www.semanticscholar.org/paper/DOI:{{citation.DOI}}/#citing-papers">
+<i class="fa fa-link" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>DOI Citing Papers </a>
+|
+{% endif %}

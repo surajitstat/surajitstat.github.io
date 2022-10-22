@@ -14,19 +14,42 @@ tags:
  - Monocytes
 ---
 
-## Current Projects
->  Collaboration with teams lead by Emma Thomson CVR Vaccine efficacy. Statistical lead on a number of projects
-
-
+Clinical prediction models such as NEWS2 is currently used in practice as mortality risk assessment. In a rapid response to support COVID-19 patient assessment and resource management, published risk tools and models have been found to have a high risk of bias and therefore cannot be translated into clinical practice.
 
 ---
 
 ## Goal 
 
+
+We have developed and validated risk tool (LUCAS) based on rapid and routine blood tests predicts the mortality of patients infected with SARS-CoV-2 virus. This prediction model has both high and robust predictive power and has been tested on an external set of patients and therefore can be used to effectively triage patients when resources are limited. In addition, LUCAS can be used with chest imaging information and NEWS2 score.
+
+
 ## Researchers
-## Glasgow Collaborators
+ - Craig Wilkie
+
+## External Collaborators
+
+University of Brighton
+
+    Louise Mackenzie
+    Simonne Weeks
+
+University of Oxford
+
+    Abhirup Banerjee
+
+University of Lincoln
+
+    Bart Vorselaars
+
+University of Sheffield
+
+    Andrew Sift
+    Michael Mamalakis 
+
+
 
 ## Related links
 
 ## Related publications 
-{% include gscholar include_link=true style="surajit" year=2022 %}
+{% include gscholar include_link=true style="surajit" title_search="Mortality; blood; deep " %}
