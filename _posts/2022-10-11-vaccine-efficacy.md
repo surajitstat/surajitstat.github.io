@@ -1,7 +1,7 @@
 ---
 title: Vaccine efficacy and Coronavirus (COVID-19) 
 layout: post
-post-image: ../assets/images/vaccine.png
+post-image: "https://raw.githubusercontent.com/surajitstat/test/main/assets/images/vaccine.png"
 description: Vaccines based on the spike protein of SARS-CoV-2 are a cornerstone of the public health response to COVID-19. The emergence of hypermutated, increasingly transmissible variants of concern (VOCs) threaten this strategy. We study the real-world vaccine effectiveness of Oxford/AstraZeneca (ChAdOx1), Pfizer BioNTech (BNT162b2)  and Moderna (mRNA-1273). that was partially restored along with the effectiveness of  booster vaccination. 
 
 tags:
