@@ -154,3 +154,40 @@ hr.abs {
   border-top: 1px solid orange;
      margin: 3px;
 	}
+
+
+
+
+
+/* Definitions for grants */
+
+
+.grant li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+
+.grant li {
+  margin: 1em;
+  margin-left: 1.5em;
+}
+
+.grant li:before {
+  content: '\f006';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color:  #666666;
+  font-size: 2ex;
+}
+
+.grant h2{
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 0px;
+    color:hsl(0, 0%, 29%);
+    background-color: hsl(0, 0%, 86%);
+}

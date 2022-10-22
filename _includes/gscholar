@@ -175,7 +175,7 @@
       <li class="pub">
       <button>{{citation.Year}}</button>
        <span class="has-text-black has-text-weight-semibold"> {{ title_link }} </span><br>
-	<auth>{{ citation_Authors | split: "," | array_to_sentence_string }} </auth>
+	<auth>{{citation.Authors | split: "," | array_to_sentence_string | truncate: 400}} </auth>
 
 	  <br>
 	 <span class="is-italic has-text-weight-semibold " style="font-size: 1.7ex">
