@@ -1,4 +1,4 @@
-# Merging citations
+# Merging citations checking changes
 library(semscholar)
 aa=s2_authors("1901464")
 sem.papers=aa$papers[[1]]
