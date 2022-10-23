@@ -14,7 +14,7 @@ tags:
  - Monocytes
 ---
 
-Clinical prediction models such as NEWS2 is currently used in practice as mortality risk assessment. In a rapid response to support COVID-19 patient assessment and resource management, published risk tools and models have been found to have a high risk of bias and therefore cannot be translated into clinical practice.
+> Clinical prediction models such as NEWS2 is currently used in practice as mortality risk assessment. In a rapid response to support COVID-19 patient assessment and resource management, published risk tools and models have been found to have a high risk of bias and therefore cannot be translated into clinical practice.
 
 ---
 
