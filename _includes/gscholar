@@ -172,6 +172,7 @@
 
     {% if style == "mla" %}
       <li>
+      
         {{ formatted_author_list | split: ";" | array_to_sentence_string }}. "{{ title_link }}." <em>{{citation.Publication}}</em> ({{citation.Year}}).
       </li>
     {% elsif style == "apa" %}  
@@ -190,7 +191,7 @@
       <li class="pub">
       <button>{{citation.Year}}</button>
        <span class="has-text-black has-text-weight-semibold"> {{ title_link }} </span><br>
-	<auth>{{citation.Authors | split: "," | array_to_sentence_string | truncate: 400}} </auth>
+	<auth class="line-clamp">{{citation.Authors | split: "," | array_to_sentence_string}} </auth>
 
 	  <br>
 	 <span class="is-italic has-text-weight-semibold " style="font-size: 1.7ex">
@@ -244,7 +245,7 @@ Open Access </a>|
   target="popup" 
   onclick="window.open('https://api.crossref.org/works/{{citation.DOI}}/transform/application/x-bibtex','popup','width=600,height=300,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no'
 ); return false;">
-    Cite
+    <i class="fa fa-thin fa-book"></i> Cite
 </a>
 |
 

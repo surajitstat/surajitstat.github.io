@@ -4,40 +4,11 @@ layout: pageleft
 ---
 
 
-<style>
-
-li code 
-{
-  background-image: linear-gradient(#f7f8fa ,#e7e9ec);
-  border-color: #adb1b8 #a2a6ac #8d9096;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 3px;
-  box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
-  box-sizing: border-box;
-  color: $link;
-  font-family: 'Poppins', sans-serif;
-  outline: 0;
-  overflow: hidden;
-  padding: 1px 7px;
-  text-align: center;
-  text-decoration: none;
-  text-overflow: ellipsis;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-}
-
-
-</style>
-
 
 <div class="grant" markdown=1>
 
 
-
-## Major reseaerch Grants
+## Major research Grants
 
 
 - `EPSRC` `GCRF` EP/T003669/1: [Developing statistical downscaling to improve water quality understanding and management in the Ramganga sub-basin](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T003669/1)  2019 – 2022 (£ 461,314) Role: PI 
@@ -50,6 +21,12 @@ li code
 
 - `NSF (USA)` Award No: #0947950: [NSF   GK-12 Graduate STEM Fellows in K-12 Education GLACIER-Global Change Initiative-Education & Research](https://app.dimensions.ai/details/grant/grant.3108353) 03/15/2010- 03/14/2014 ($2,854,102) Role: Co-PI 
 
+</div>
+
+</div>
+</div>
+
+<div class="grant" markdown=1>
 
 ## Other research grants 
 
@@ -87,5 +64,6 @@ li code
 - `BIRS` Banff International Research Station for Mathematical Innovation and Discovery workshop grant:*[Frontiers in Functional Data Analysis For operation reasons, this grant was administered by Banff International Research Station, Banff, Canada](https://www.birs.ca/events/2015/5-day-workshops/15w5096) (£ 70,000)
 
 - `EPSRC` and `DST (India)` workshop grant: [Solving Big Data Challenges in Modern Science through Statistical Modelling data Analysis](https://www.icms.org.uk/workshops/2015/solving-big-data-challenges-modern-science-through-statistical-modelling). For operational reasons this grant was administered through International Centre for Mathematical Sciences (ICMS), Edinburgh, U. K. Co-organizer: Mayetri Gupta (£ 50,000)
+
 
 </div>
