@@ -193,7 +193,6 @@
        <span class="has-text-black has-text-weight-semibold"> {{ title_link }} </span><br>
 	<auth class="line-clamp">{{citation.Authors | split: "," | array_to_sentence_string}} </auth>
 
-	  <br>
 	 <span class="is-italic has-text-weight-semibold " style="font-size: 1.7ex">
 	 {{citation.Publication}}. 
 	 {{citation.Volume}} </span>
@@ -240,7 +239,7 @@ Open Access </a>|
 |
 {% endif %}
 
-
+{% if  {{citation.DOI}}  %}
 <a href="https://api.crossref.org/works/{{citation.DOI}}/transform/application/x-bibtex" 
   target="popup" 
   onclick="window.open('https://api.crossref.org/works/{{citation.DOI}}/transform/application/x-bibtex','popup','width=600,height=300,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no'
@@ -248,6 +247,8 @@ Open Access </a>|
     <i class="fa fa-thin fa-book"></i> Cite
 </a>
 |
+{% endif %}
+
 
 
 

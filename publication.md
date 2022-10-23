@@ -69,14 +69,8 @@ Research Gate
 
 
 
-## All publications
 
-<details open> 
-<summary><i>All publications</i></summary>
 {% include gscholar include_link=true style="surajit"  %}
-</details>
-<br/>
-
 
 
 

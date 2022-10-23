@@ -23,8 +23,6 @@ layout: pageleft
 
 </div>
 
-</div>
-</div>
 
 <div class="grant" markdown=1>
 
