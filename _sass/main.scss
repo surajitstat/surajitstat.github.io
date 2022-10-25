@@ -151,10 +151,12 @@ margin-left: 5px;
 
 }
 
-hr.abs {
-  border-top: 1px solid orange;
-     margin: 3px;
-	}
+
+.line {
+    margin: 0;
+    margin-bottom: 10px;
+  border-top: 1px solid hsl(0, 0%,70%); 
+  	}
 
 
 
@@ -190,7 +192,7 @@ hr.abs {
 .grant h2{
     font-size: 1.2rem;
     padding: 5px;
-    margin: 0 0 0 0;
+    margin: 0 0 10px 0;
     color:hsl(0, 0%, 29%);
     background-color: hsl(0, 0%, 97%); 
     border-color: orange;
@@ -229,6 +231,9 @@ hr.abs {
 }
 
 
+/* General */
+
+
 
 .line-clamp {
   display: -webkit-box;
@@ -236,3 +241,5 @@ hr.abs {
   -webkit-line-clamp: 2; /* Change this line if you want. In this case it trimmed the text to 3 lines. */
   overflow: hidden;
 }
+
+.nobr { white-space: nowrap }
