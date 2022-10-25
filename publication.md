@@ -28,7 +28,7 @@ layout: pageleft
 
 {%- if forloop.first -%}
 <h2 id="{{ year }}"> {{ year }} </h2>
-{%- else -%}
+{%- else -%}	
 <h2 id="{{ year }}"> {{ year }} <a href="#" style="float: right;">  <i class="fas fa-arrow-up"> </i>
  </a> </h2>  
 

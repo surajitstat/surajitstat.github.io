@@ -39,6 +39,7 @@
 <div>
 
 {% for citation in pub_list %}
+
   {% if include.venue %}
     {% assign publication = citation.Publication | downcase %}
     {% if venues contains publication %}
@@ -277,8 +278,9 @@ Open Access </a>|
 
  
 
- <hr class="line"  >
-
+{% if forloop.last == false %}
+ <hr class= "line"  >
+{% endif %}
      
     {% endif %}
 
@@ -292,7 +294,6 @@ Open Access </a>|
     {% endif %} 
     
   {% endif %}
-
 
 {% endfor %}
 
