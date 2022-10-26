@@ -1,0 +1,119 @@
+{% assign pub_list = site.data.citations | sort: 'Citations' | reverse %}
+{% assign style = include.style | downcase | default: "apa" %}
+
+
+
+<div>
+
+{% for citation in pub_list  limit:{{ include.limit | plus: 0 }} %}
+
+
+<div class="pub">
+      <button>{{citation.Year}}</button>
+      <span class="has-text-black has-text-weight-semibold"> {{ citation.Title }} </span><br>
+	<auth class="line-clamp">{{citation.Authors | split: "," | array_to_sentence_string}} </auth>
+
+	 <span class="is-italic has-text-weight-semibold " style="font-size: 1.7ex">
+	 {{citation.Publication}}. 
+	 {{citation.Volume}} </span>
+	 <span class="is-italic">
+	 {% if citation.Issue %}
+
+         ({{citation.Issue}})
+	 {% endif %}
+
+	 </span>
+	 <br>
+
+<div style="font-size: 1.6ex">
+
+
+{% if  {{citation.DOI}}  %}
+<a href="https://doi.org/{{citation.DOI}}"><i class="fa fa-external-link-square" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Journal Page  </a>
+|
+{% endif %}
+
+
+{% if  {{citation.['PubMed ID'] }}  %}
+<a href="https://pubmed.ncbi.nlm.nih.gov/{{citation.['PubMed ID']}}"><i class="ai ai-pubmed ai-lg" ></i>
+PubMed </a> |
+{% endif %}
+
+{% if  {{citation.PDF}}  %}
+<a href="{{citation.PDF}}" class="nobr">
+<i class="fa fa-light fa-file-pdf" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i> PDF </a>
+|
+{% endif %}
+
+
+{% if citation.OpenAccess != "No"  %}
+<a href="https://doi.org/{{citation.DOI}}" title="{{citation.OpenAccess | remove: "All Open Access, " ')}}" class="nobr">
+<i class="ai ai-open-access ai-lg" style="vertical-align:middle;"></i> 
+Open Access </a>|
+         {% endif %}
+
+
+{% if  {{citation.Link}}  %}
+<a href="{{citation.Link}}" class="nobr">
+<i class="fa fa-link" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Scopus Link </a>
+|
+{% endif %}
+
+{% if  {{citation.DOI!=""}}  %}
+<a href="https://api.crossref.org/works/{{citation.DOI}}/transform/application/x-bibtex" 
+  target="popup"  class="nobr"
+  onclick="window.open('https://api.crossref.org/works/{{citation.DOI}}/transform/application/x-bibtex','popup','width=600,height=300,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no'
+); return false;">
+    <i class="fa fa-thin fa-book"></i> Cite
+</a>
+|
+{% endif %}
+
+
+
+
+
+
+{% if  {{citation.'paper_id'}}  %}
+<a href="https://www.semanticscholar.org/paper/{{citation.'paper_id'}}#citing-papers" class="nobr">
+<i class="fa fa-quote-left" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>Citing Papers </a>
+|
+{% endif %}
+
+
+
+
+
+{% if  {{citation.Abstract}}  %}
+
+	 <details>
+   	  <summary>
+	 Abstract
+	  </summary>
+	  <hr class="line">
+	   <p class="has-text-weight-light has-text-justified has-background-link-light" style="margin:10px;font-size: 1.5ex;" > {{citation.Abstract}} </p>
+	  </details>
+{% endif %}	
+ 	  </div>
+
+
+{% if forloop.last == false %}
+ <hr class= "line"  >
+
+
+  {% endif %}
+
+
+    
+   
+
+
+{% endfor %}
+
+</div>
+ 
+
+
+ 
+
+
