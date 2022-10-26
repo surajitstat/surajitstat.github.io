@@ -265,6 +265,7 @@ Open Access </a>|
 
 
 
+{% if  {{citation.Abstract}}  %}
 
 	 <details>
    	  <summary>
@@ -273,10 +274,9 @@ Open Access </a>|
 	  <hr class="line">
 	   <p class="has-text-weight-light has-text-justified has-background-link-light" style="margin:10px;font-size: 1.5ex;" > {{citation.Abstract}} </p>
 	  </details>
-	  </div>
+{% endif %}	
+ 	  </div>
 
-
- 
 
 {% if forloop.last == false %}
  <hr class= "line"  >
