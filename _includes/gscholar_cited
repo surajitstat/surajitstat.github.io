@@ -5,12 +5,12 @@
 
 <div>
 
-{% for citation in pub_list  limit:{{ include.limit | plus: 0 }} %}
+{% for citation in pub_list  limit:10 %}
 
 
 <div class="pub">
       <button>{{citation.Year}}</button>
-      <span class="has-text-black has-text-weight-semibold"> {{ citation.Title }} </span><br>
+      <span class="has-text-black has-text-weight-medium"> {{ citation.Title }} </span><br>
 	<auth class="line-clamp">{{citation.Authors | split: "," | array_to_sentence_string}} </auth>
 
 	 <span class="is-italic has-text-weight-semibold " style="font-size: 1.7ex">
