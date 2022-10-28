@@ -192,7 +192,7 @@
       <div class="pub">
       <button>{{citation.Year}}</button>
        <span class="has-text-black has-text-weight-semibold"> {{ title_link }} </span><br>
-	<auth class="line-clamp">{{citation.Authors | split: "," | array_to_sentence_string}} </auth>
+	<auth class="line-clamp is-size-7" >{{citation.Authors | split: "," | array_to_sentence_string}} </auth>
 
 	 <span class="is-italic has-text-weight-semibold " style="font-size: 1.7ex">
 	 {{citation.Publication}}. 

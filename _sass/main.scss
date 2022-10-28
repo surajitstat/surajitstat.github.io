@@ -241,6 +241,8 @@ margin-left: 5px;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2; /* Change this line if you want. In this case it trimmed the text to 3 lines. */
   overflow: hidden;
+  font-size: small;
+
 }
 
 .nobr { white-space: nowrap }
