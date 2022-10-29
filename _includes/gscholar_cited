@@ -1,4 +1,4 @@
-{% assign pub_list = site.data.citations | sort: "Year" | reverse %}
+{% assign pub_list = site.data.citations | sort: "Citedby" | reverse %}
 {% assign style = include.style | downcase | default: "apa" %}
 
 
