@@ -1,8 +1,7 @@
 ---
-title: Publications 
+title: Publications  
 layout: pageleft
 ---
-
 
 {% capture Years %}
   {%- for pub in site.data.citations -%}
@@ -12,15 +11,23 @@ layout: pageleft
 {% endcapture %}
 
 
+
+
 {% assign year_list = Years | remove:' ' |split: ',' | uniq | sort | reverse %}
 
 
-<!--Introduce Target -->
+{% include pubother.html %}
+
+<!--Links to other years -->
 {%- for year in year_list  -%}
 <a  href="#{{ year }}"> {{ year  }} </a> | 
 {%- endfor -%}
 <a  href="./publication_cited" > 10 most cited </a>
-<!--Introduce Target -->
+<!--Other citations -->
+
+
+
+
 
 
 {% for year in year_list  %}
