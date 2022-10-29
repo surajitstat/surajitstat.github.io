@@ -1,0 +1,24 @@
+<div class="navbar-item has-dropdown is-hoverable">
+    <a class="navbar-link">
+        RESEARCH
+    </a>
+    <div class="navbar-dropdown has-background-black is-left">
+         <a href="project"
+            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}"> CURRENTS PROJECTS
+         </a>
+	 <a href="people"
+            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}"> PEOPLE
+         </a>
+
+	 <a href="past"
+            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}"> PAST PROJECTS
+         </a>
+
+	 
+        <!-- <hr class="navbar-divide
+    <a class="navbar-item">
+      Report an issue
+    </a> -->
+    </div>
+</div>
+
