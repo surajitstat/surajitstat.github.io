@@ -267,3 +267,23 @@ margin-left: 5px;
 
 
 .nobr { white-space: nowrap }
+
+
+.wrap-flex {
+            display: flex;
+            align-content: space-between;
+	                height:2rem;
+            flex-flow: column wrap;
+        }
+          
+
+
+
+.noline a{
+    color: black;
+}
+
+.noline a:hover { 
+    color: orange;
+    text-decoration: none;
+}

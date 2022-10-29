@@ -1,6 +1,6 @@
 ---
 title: Publications  
-layout: pageleft
+layout: pagepub
 ---
 
 {% capture Years %}
@@ -14,9 +14,6 @@ layout: pageleft
 
 
 {% assign year_list = Years | remove:' ' |split: ',' | uniq | sort | reverse %}
-
-
-{% include pubother.html %}
 
 <!--Links to other years -->
 {%- for year in year_list  -%}

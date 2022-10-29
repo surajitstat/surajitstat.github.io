@@ -1,0 +1,38 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+
+   
+{% include head.html %}
+
+<body>
+    {% include navbar.html %}
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container" id="page-section">
+              <div class="section">
+               <div class="wrap-flex">
+		 <div class="title is-uppercase has-text-weight-medium has-text-grey">{{page.title}}
+                </div>
+	       <div> 	{% include pubother.html %}
+			</div>
+
+		</div>
+
+
+                    <hr class="has-background-black">
+                    <div class="content is-marginless">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer begins here-->
+    {% include footer.html %}
+</body>
+
+</html>

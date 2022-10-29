@@ -1,6 +1,6 @@
 ---
 title: Publications 
-layout: pageleft
+layout: pagepub
 ---
 
 <div class="grant">
