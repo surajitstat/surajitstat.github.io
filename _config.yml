@@ -9,7 +9,7 @@ baseurl:
 # Title of the Site
 title: Surajit Ray
 # Description of the Site
-description: Professor of Statistics The University of Glasgow
+description: Professor of Statistics | The University of Glasgow
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
@@ -42,7 +42,7 @@ author-image: https://www.gla.ac.uk/media/Media_633760_smxx.jpg
 # 60 Words About the Author
 author-about: My research interests are in the area of model selection, the theory and geometry of mixture models and functional data analysis. I am especially interested in challenges presented by "large magnitude", both in the dimension of data vectors and in the number of vector. Core areas of methodological research include multivariate mixtures, structural equations models, high-dimensional clustering and functional clustering. Key collaborative activities involve projects in immunology, modeling of climate-ecosystem dynamics and medical image segmentation.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https:surajitray.org
+author-url: https://surajitray.org
 
 # SASS
 sass:

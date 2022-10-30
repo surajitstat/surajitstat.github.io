@@ -1,19 +1,21 @@
 <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link">
+    <a class="navbar-link" href="{{site.url}}{{site.baseurl}}/blog">
         RESEARCH
     </a>
     <div class="navbar-dropdown has-background-black is-left">
          <a href="{{site.url}}{{site.baseurl}}/blog"
-            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}"> CURRENTS PROJECTS
+            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}"> CURRENT PROJECTS
          </a>
+
 	 <a href="{{site.url}}{{site.baseurl}}/project"
             class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}"> PAST PROJECTS
          </a>
-
-
-	 <a href= "{{site.url}}{{site.baseurl}}/people"
+	 	 <a href="{{site.url}}{{site.baseurl}}/people"
             class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}"> PEOPLE
          </a>
+
+
+	 
 
 	 
         <!-- <hr class="navbar-divide
@@ -22,3 +24,4 @@
     </a> -->
     </div>
 </div>
+
