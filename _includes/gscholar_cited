@@ -97,11 +97,8 @@ Open Access </a>|
  	  </div>
 
 
-{% if forloop.last == false %}
  <hr class= "line"  >
 
-
-  {% endif %}
 
 
     
