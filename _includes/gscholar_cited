@@ -1,11 +1,11 @@
-{% assign pub_list = site.data.citations | sort: "Year" | reverse %}
+{% assign pub_list = site.data.citationstop %}
 {% assign style = include.style | downcase | default: "apa" %}
 
 
 
 <div>
 
-{% for citation in pub_list  limit:20 %}
+{% for citation in pub_list %}
 
 
 <div class="pub">
