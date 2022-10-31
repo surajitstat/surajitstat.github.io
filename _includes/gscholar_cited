@@ -5,7 +5,7 @@
 
 <div>
 
-{% for citation in pub_list  limit:10 %}
+{% for citation in pub_list  limit:30 %}
 
 
 <div class="pub">
