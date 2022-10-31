@@ -9,6 +9,6 @@ layout: pagepub
  All publications 
  </a> </h2> 
 
- {% include gscholar_cited limit=10 style="surajit"  %}
+ {% include gscholar_cited style="surajit"  %}
 
 </div>
