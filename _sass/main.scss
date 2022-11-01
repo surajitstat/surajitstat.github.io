@@ -83,17 +83,6 @@ $color-code-color: #333399 ;
 $blue: hsl(201, 90%, 39%) ;
 $link: $blue;
 
-a {
-    color: $blue;
-}
-
-a:hover { 
- text-decoration: underline;
- text-decoration-color: orange;
- text-decoration-thickness: 2px;
- text-underline-offset: 0.2rem;
-}
-
 
 
 
@@ -201,6 +190,23 @@ margin-left: 5px;
     border-width: 0 0 1px 0;
 }
 
+
+a {
+    color: $blue;
+
+}
+
+
+.grant a {
+    color: $blue;
+}
+
+a:hover { 
+ text-decoration: underline;
+ text-decoration-color: orange;
+ text-decoration-thickness: 2px;
+ text-underline-offset: 0.2rem;
+}
 
 
 
