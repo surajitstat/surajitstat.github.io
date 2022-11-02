@@ -323,3 +323,30 @@ margin-left: 5px;
     color: hsl(0, 0%, 39%)!important;
     font-size: larger;
 }
+
+
+/* For grants pages using messages class of message */
+
+
+.message-body a{
+    color: hsl(0, 0%, 19%) !important;
+    font-weight: 600;
+    text-decoration: none!important;
+    
+}
+
+
+.message-body a::before{
+    content:  '\f08e';
+    font-family: 'FontAwesome';
+    font-size: 2ex;
+    margin: 0 0.5ex 0 0.5ex;
+  
+}
+
+    
+
+
+.message-body a:hover{
+    color: hsl(0, 0%, 39%)!important;
+}

@@ -2,9 +2,14 @@
 title: Teaching
 layout: pageleft
 ---
-<div class="grant" markdown=1>
 
-## Current Courses at University of Glasgow
+<article class="message">
+  <div class="message-header">
+     <p> Current Courses at University of Glasgow
+</p>
+      </div>
+  <div class="message-body grant" markdown=1>
+
 
 
 * `UoG` `4H` `5M` [Functional Data Analyis](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS4073) 
@@ -12,10 +17,36 @@ layout: pageleft
 * `UoG` `ODL` [Predictive Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5076)
 * `UoG` `ODL` [Data Analytics Project](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5093P)
 
-## Datacamp course
+
+
+</div>
+</article>
+
+
+<article class="message">
+  <div class="message-header">
+     <p> Datacamp Course </p>
+      </div>
+  <div class="message-body grant" markdown=1>
+
+
+
+
+
 * `Datacamp` [Multivariate Probability Distributions in R](https://www.datacamp.com/courses/multivariate-probability-distributions-in-r) 
 
-## Previous Courses 
+
+
+</div>
+</article>
+
+
+<article class="message">
+  <div class="message-header">
+     <p> Previous Courses  </p>
+      </div>
+  <div class="message-body grant" markdown=1>
+
 
 * `UoG` `5M` [Regression Models](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5025)
 * `UoG` `5M` `4H` Computational Inference
@@ -38,3 +69,6 @@ layout: pageleft
 * `UNC` Principles Of Experimental Analysis
 
 </div>
+
+</article>
+

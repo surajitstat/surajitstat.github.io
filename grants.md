@@ -5,7 +5,7 @@ layout: pageleft
 
 <article class="message">
   <div class="message-header">
-     <p> Major research Grants</p>
+     <p> Major Research Grants</p>
       </div>
   <div class="message-body grant" markdown=1>
 
@@ -76,9 +76,10 @@ layout: pageleft
   <div class="message-body grant" markdown=1>
 
 
-- `BIRS` Banff International Research Station for Mathematical Innovation and Discovery workshop grant:*[Frontiers in Functional Data Analysis For operation reasons, this grant was administered by Banff International Research Station, Banff, Canada](https://www.birs.ca/events/2015/5-day-workshops/15w5096) (£ 70,000)
+- `BIRS` Banff International Research Station for Mathematical Innovation and Discovery workshop grant:[Frontiers in Functional Data Analysis For operation reasons, this grant was administered by Banff International Research Station, Banff, Canada](https://www.birs.ca/events/2015/5-day-workshops/15w5096) (£ 70,000)
 
 - `EPSRC` and `DST (India)` workshop grant: [Solving Big Data Challenges in Modern Science through Statistical Modelling data Analysis](https://www.icms.org.uk/workshops/2015/solving-big-data-challenges-modern-science-through-statistical-modelling). For operational reasons this grant was administered through International Centre for Mathematical Sciences (ICMS), Edinburgh, U. K. Co-organizer: Mayetri Gupta (£ 50,000)
 
 
-</div>
+</div></article>
+
