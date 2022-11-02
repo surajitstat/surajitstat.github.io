@@ -3,12 +3,11 @@ title: Research Grants
 layout: pageleft
 ---
 
-
-
-<div class="grant" markdown=1>
-
-
-## Major research Grants
+<article class="message">
+  <div class="message-header">
+     <p> Major research Grants</p>
+      </div>
+  <div class="message-body grant" markdown=1>
 
 
 - `EPSRC` `GCRF` EP/T003669/1: [Developing statistical downscaling to improve water quality understanding and management in the Ramganga sub-basin](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T003669/1)  2019 – 2022 (£ 461,314) Role: PI 
@@ -22,11 +21,14 @@ layout: pageleft
 - `NSF (USA)` Award No: #0947950: [NSF   GK-12 Graduate STEM Fellows in K-12 Education GLACIER-Global Change Initiative-Education & Research](https://app.dimensions.ai/details/grant/grant.3108353) 03/15/2010- 03/14/2014 ($2,854,102) Role: Co-PI 
 
 </div>
+</article>
 
 
-<div class="grant" markdown=1>
-
-## Other research grants 
+<article class="message">
+  <div class="message-header">
+     <p> Other research grants </p>
+      </div>
+  <div class="message-body grant" markdown=1>
 
 - `UoG`: University of Glasgow [Research Reinvigoration grant](https://www.gla.ac.uk/myglasgow/ris/reinvigoratingresearch/): (£40,700) 2022-2023 Role: PI
 
@@ -41,9 +43,15 @@ layout: pageleft
 
 
 
+</div>
+</article>
 
 
-## Studentship and other commercial grants 
+<article class="message">
+  <div class="message-header">
+     <p>Studentship and other commercial grants  </p>
+      </div>
+  <div class="message-body grant" markdown=1>
 
 - `Carnegie` Trust studentship: [Wenhui Zhang](https://www.carnegie-trust.org/alumni/wenhui-zhang-2/) Role: PI 2020-2024
 
@@ -56,7 +64,16 @@ layout: pageleft
 - `ESF` European Social Fund: [Datalab MSc Scholarship](https://thedatalab.com/students/scholarships/) (£96,360) 01/10/2018-30/09/2020
 
 
-## Workshop Grants 
+
+</div>
+</article>
+
+
+<article class="message">
+  <div class="message-header">
+     <p> Workshop Grants  </p>
+      </div>
+  <div class="message-body grant" markdown=1>
 
 
 - `BIRS` Banff International Research Station for Mathematical Innovation and Discovery workshop grant:*[Frontiers in Functional Data Analysis For operation reasons, this grant was administered by Banff International Research Station, Banff, Canada](https://www.birs.ca/events/2015/5-day-workshops/15w5096) (£ 70,000)

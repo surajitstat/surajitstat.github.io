@@ -86,6 +86,22 @@ $link: $blue;
 
 
 
+a {
+    color: $blue;
+
+}
+
+
+
+
+a:hover { 
+ text-decoration: underline;
+ text-decoration-color: orange;
+ text-decoration-thickness: 2px;
+ text-underline-offset: 0.2rem;
+}
+
+
 code {
     background-color: $color-code-background;
     color: $color-code-color;
@@ -159,19 +175,13 @@ margin-left: 5px;
 
 .grant li {
   padding: 0;
-  margin: 0;
+  margin: 0.5em;
   list-style: none;
 }
 
 
-
-.grant li {
-  margin: 1em;
-  margin-left: 1.5em;
-}
-
 .grant li:before {
-  content: '\f006';
+  content: '\f101';
   font-family: 'FontAwesome';
   float: left;
   margin-left: -1.5em;
@@ -191,22 +201,6 @@ margin-left: 5px;
 }
 
 
-a {
-    color: $blue;
-
-}
-
-
-.grant a {
-    color: $blue;
-}
-
-a:hover { 
- text-decoration: underline;
- text-decoration-color: orange;
- text-decoration-thickness: 2px;
- text-underline-offset: 0.2rem;
-}
 
 
 
