@@ -8,18 +8,15 @@ Selecting between competing structural equation models is a common problem. Ofte
 
 
 
-# External Collaborators
-* Ken Bollen 
-* Jeff Harden
-* Jane Zavisca
-* Jim Berger
+## External Collaborators
+
+{% include people Name='Bollen; Zavisca; Berger' %}
 
 
 
 
 
-
-# Related publications
+## Related publications
 <hr class="abs">
 {% include gscholar include_link=true style="surajit" title_search="BIC;Bayes;Bayesian" %}
 

@@ -9,10 +9,10 @@ layout: pageleft
       </div>
   <div class="message-body grant" markdown=1>
   
-- `UoG` `4H` `5M` [Functional Data Analyis](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS4073) 
+- [Functional Data Analyis](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS4073) `UoG` `4H` `5M` 
  
-- `UoG` `ODL` [Predictive Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5076)
-- `UoG` `ODL` [Data Analytics Project](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5093P)
+- [Predictive Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5076) `UoG` `ODL`
+- [Data Analytics Project](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5093P) `UoG` `ODL` 
 
 </div>
 </article>
@@ -28,7 +28,7 @@ layout: pageleft
 
 
 
-* `Datacamp` [Multivariate Probability Distributions in R](https://www.datacamp.com/courses/multivariate-probability-distributions-in-r) 
+* [Multivariate Probability Distributions in R](https://www.datacamp.com/courses/multivariate-probability-distributions-in-r) `Datacamp` 
 
 
 
@@ -43,25 +43,27 @@ layout: pageleft
   <div class="message-body grant" markdown=1>
 
 
-* `UoG` `5M` [Regression Models](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5025)
-* `UoG` `5M` `4H` Computational Inference
+*  [Short Course: Statistical methods for functional data](https://phd.unibo.it/statistics/en/agenda/statistical-methods-for-functional-data) `Bologna` 
 
-* `BU` [Math 882- Functional Data Analysis](http://math.bu.edu/people/sray/teaching/math882/)
+*  [Regression Models](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5025) `UoG` `5M`
+*  Computational Inference `UoG` `5M` `4H`
 
-* `BU` [Math 584- Multivariate Analysis (Spring 2007, Spring 2009 )](http://math.bu.edu/people/sray/teaching/math584/)
+* [Math 882- Functional Data Analysis](http://math.bu.edu/people/sray/teaching/math882/) `BU`  
 
-* `BU` [Math 576- Generalized Linear Models (Spring 2007, 2008, 2009 )](http://math.bu.edu/people/sray/teaching/math576/) 
+* [Math 584- Multivariate Analysis(Spring 2007, Spring 2009 )](http://math.bu.edu/people/sray/teaching/ math584/) `BU` 
 
-* `BU` [Math 881- Topics in High Dimensional Data Analysis (Fall 2007)](http://math.bu.edu/people/sray/teaching/math881/)
+*  [Math 576- Generalized Linear Models (Spring 2007, 2008, 2009 )](http://math.bu.edu/people/sray/teaching/math576/) `BU` 
 
-* `BU` [Math 586- Design of Experiments (Fall 2006)](http://math.bu.edu/people/sray/math586/) 
+* [Math 881- Topics in High Dimensional Data Analysis (Fall 2007)](http://math.bu.edu/people/sray/teaching/math881/) `BU` 
+
+* [Math 586- Design of Experiments (Fall 2006)](http://math.bu.edu/people/sray/math586/) `BU` 
 
 
 
 
-* `UNC` Principles of Statistical Inference 
+* Principles of Statistical Inference `UNC` 
 
-* `UNC` Principles Of Experimental Analysis
+* Principles Of Experimental Analysis `UNC` 
 
 </div>
 

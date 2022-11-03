@@ -336,6 +336,9 @@ margin-left: 5px;
 }
 
 
+
+
+
 /* For grants pages using messages class of message */
 
 
@@ -361,3 +364,21 @@ margin-left: 5px;
 .message-body a:hover{
     color: hsl(0, 0%, 39%)!important;
 }
+
+
+
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+bottom: 0;
+left: 0;
+}
+
+
+.card h4{
+    margin:0!important;
+    padding:0!important;
+
+}
+
