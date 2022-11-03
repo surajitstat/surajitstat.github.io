@@ -38,9 +38,10 @@ tags:
 - [Dr. Xiaohao Cai](https://xiaohaocai.netlify.app/) University of Southampton
 
 ## Related links
-* [CMIH](https://www.cmih.maths.cam.ac.uk
-)
-* [SoftMech](http://www.softmech.org
-)
+* [CMIH](https://www.cmih.maths.cam.ac.uk)
+* [SoftMech](http://www.softmech.org)
 * [SINAPSE](http://www.sinapse.ac.uk)
----
+
+
+## Related publications 
+{% include gscholar include_link=true style="surajit" title_search="deep; segmentation" %}

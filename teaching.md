@@ -5,19 +5,14 @@ layout: pageleft
 
 <article class="message">
   <div class="message-header">
-     <p> Current Courses at University of Glasgow
-</p>
+     <p> Current Courses at University of Glasgow</p>
       </div>
   <div class="message-body grant" markdown=1>
-
-
-
-* `UoG` `4H` `5M` [Functional Data Analyis](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS4073) 
+  
+- `UoG` `4H` `5M` [Functional Data Analyis](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS4073) 
  
-* `UoG` `ODL` [Predictive Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5076)
-* `UoG` `ODL` [Data Analytics Project](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5093P)
-
-
+- `UoG` `ODL` [Predictive Modelling](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5076)
+- `UoG` `ODL` [Data Analytics Project](https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5093P)
 
 </div>
 </article>

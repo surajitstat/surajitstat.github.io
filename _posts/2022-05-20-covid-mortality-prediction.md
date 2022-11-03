@@ -29,27 +29,35 @@ We have developed and validated risk tool (LUCAS) based on rapid and routine blo
 
 ## External Collaborators
 
-University of Brighton
+### University of Brighton
 
-    Louise Mackenzie
-    Simonne Weeks
+- Louise Mackenzie
+- Simonne Weeks
 
-University of Oxford
+### University of Oxford
 
-    Abhirup Banerjee
+ - Abhirup Banerjee
 
-University of Lincoln
+### University of Lincoln
 
-    Bart Vorselaars
+ - Bart Vorselaars
 
-University of Sheffield
+### University of Sheffield
 
-    Andrew Sift
-    Michael Mamalakis 
+ - Andrew Sift
+- Michael Mamalakis 
 
 
 
 ## Related links
+Mortality Calculator: 
+- [MDSCORE.ORG](https://mdscore.org)
+
+Github Repositories:
+- [Image CXR classifier based on CNN](https://github.com/team-globs/COVID-19_CXR)
+- [ANN classifier for Sao Paolo Data](https://github.com/abhirupb88/MaPP-AI)
+
+
 
 ## Related publications 
-{% include gscholar include_link=true style="surajit" title_search="Mortality; blood; deep " %}
+{% include gscholar include_link=true style="surajit" title_search="Mortality; blood; deep; rapid" %}
