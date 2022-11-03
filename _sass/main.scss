@@ -309,11 +309,21 @@ margin-left: 5px;
     padding: 5px;
     margin: 0 0 0 0;
     color:hsl(0, 0%, 39%);
-    }
+}
 
 
 
 
+.other a{
+    text-decoration:none!important;
+}
+
+.other a:hover { 
+ text-decoration: underline!important;
+ text-decoration-color: orange!important;
+ text-decoration-thickness: 2px!important;
+ text-underline-offset: 0.2rem!important;
+}
 
 
 #pub-menu .ai{

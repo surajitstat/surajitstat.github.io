@@ -18,15 +18,19 @@ We have led the statistical analyses of one of the earliest study of vaccine eff
 
 
 ## Current Projects
- - Vaccine effectiveness against Omicron in adult population across Greater Glasgow Health Board (NHSGGC)
- - Vaccine effectiveness in pediatric population across Scotland
- - Severity across successive SARS-CoV-2 variants measured in terms of Death, ICU admission and Hospitalisation
- - Adeno-associated virus 2 infection in children with non-A-E hepatitis
+ - Vaccine effectiveness against Omicron in adult population across Greater Glasgow Health Board (NHSGGC). 
+ - Vaccine effectiveness in pediatric population across Scotland.  
+ - Severity across successive SARS-CoV-2 variants measured in terms of Death, ICU admission and Hospitalisation.   [Preprint](https://www.medrxiv.org/content/10.1101/2022.03.24.22272915v2)
+ 
+ - Adeno-associated virus 2 infection in children with non-A-E hepatitis. [Preprint](https://www.medrxiv.org/content/10.1101/2022.07.19.22277425v1)
+ - Analysis data arising from next generation sequencing (e.g. PhIP-Seq characterization of serum antibodies) to detect new and emerging viruses.
 
 
 ## Researcher
-[Craig Wilkie
+ - [Craig Wilkie
 ](https://www.gla.ac.uk/schools/mathematicsstatistics/staff/craigwilkie/)
+
+
 ## Glasgow Collaborators
 
  - [Emma Thomson
