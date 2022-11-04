@@ -3,6 +3,8 @@ title: Publications
 layout: pagepub
 ---
 
+<div class="container-fluid has-text-centered">
+
 {% capture Years %}
   {%- for pub in site.data.citations -%}
     {{ pub.Year }}
@@ -17,6 +19,7 @@ layout: pagepub
 {% assign year_list = Years | remove:' ' |split: ',' | uniq | sort | reverse %}
 
 <!--Links to other years -->
+
 {%- for year in year_list  -%}
 <a  href="#{{ year }}"> {{ year  }} </a> | 
 {%- endfor -%}
@@ -24,8 +27,7 @@ layout: pagepub
 <!--Other citations -->
 
 
-
-
+</div>
 
 
 {% for year in year_list  %}
