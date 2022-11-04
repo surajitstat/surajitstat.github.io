@@ -191,10 +191,10 @@
     {% elsif style == "surajit" %}
       <div class="pub">
       <button>{{citation.Year}}</button>
-       <span class="has-text-black has-text-weight-semibold"> {{ title_link }} </span><br>
+       <span class="has-text-dark has-text-weight-medium"> {{ title_link }} </span><br>
 	<auth class="line-clamp is-size-7" >{{citation.Authors | split: "," | array_to_sentence_string}} </auth>
 
-	 <span class="is-italic has-text-weight-semibold " style="font-size: 1.7ex">
+	 <span class="is-italic has-text-weight-medium" style="font-size: 1.7ex">
 	 {{citation.Publication}}. 
 	 {{citation.Volume}} </span>
 	 <span class="is-italic">
