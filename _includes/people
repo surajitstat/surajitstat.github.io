@@ -7,25 +7,24 @@
 {% endif %}
 
 
+<br>
 
-
-
-
-<div>
+<div class="columns is-multiline is-mobile ">
 
 {%- for people in people_list -%}
 {%- for name in names -%}
 {%- if people.Name   contains name  -%}
+<div class="column has-text-centered is-paddingless is-marginless is-one-quarter-widescreen is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet is-two-fifths-mobile is-three-quarters-touch"
+      id="project-card">
 
-<div class="card ">
-<div class="card-horizontal text-dark ">
+<div class="has-background-white card has-text-centered">
 <figure class="image is-128x128 is-rounded">
   <img class="is-rounded" src="{{ people.Photo }}" alt="{{ People.Name }}">
   </figure>
-  <div class="card-body ">
+  <div class="card-body" style="min-height: 120px;" >
                   <span></span>
 
-  <h4 class="card-title"> {{ people.Name }}  </h4>
+  <p class="card-title has-text-weight-medium"> {{ people.Name }}  </p>
   {% if people.Affiliation != blank  %}
        {{ people.Affiliation }} <br>
    {% else %}
@@ -34,6 +33,7 @@
     <a href="{{ people.Link }}"> <button type="button"  class="btn btn-primary">  More Info  </button></a> <br>
     </div>
 </div>
+
 </div>
 <br>
 {%- endif -%}
