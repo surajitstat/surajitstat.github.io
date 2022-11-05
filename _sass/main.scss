@@ -382,4 +382,17 @@ left: 0;
 
 }
 
-
+.circle-cropper
+ {
+    border-radius: 50%;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  background: no-repeat 50%;
+  object-fit: cover;
+}
+.circle-cropper img {
+   display: block;
+   height: 100%;
+   width: 100%;
+}

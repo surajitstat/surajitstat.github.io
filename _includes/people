@@ -9,29 +9,38 @@
 
 <br>
 
-<div class="columns is-multiline is-mobile ">
+<div class="columns is-multiline is-mobile is-8">
 
 {%- for people in people_list -%}
 {%- for name in names -%}
 {%- if people.Name   contains name  -%}
-<div class="column has-text-centered is-paddingless is-marginless is-one-quarter-widescreen is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet is-two-fifths-mobile is-three-quarters-touch"
-      id="project-card">
+<div class="column has-text-centered  is-one-quarter-widescreen is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet is-two-fifths-mobile is-three-quarters-touch" >
 
-<div class="has-background-white card has-text-centered">
-<figure class="image is-128x128 is-rounded">
-  <img class="is-rounded" src="{{ people.Photo }}" alt="{{ People.Name }}">
-  </figure>
-  <div class="card-body" style="min-height: 120px;" >
-                  <span></span>
+<div class="has-background-white card">
+<center>
 
+<figure class="image is-128x128 circle-cropper">
+{% if people.Photo != blank  %}
+  <img    src="{{ people.Photo }}" alt="{{ People.Name }}">
+{% else %}
+  <img  src="https://cdn.pixabay.com/photo/2020/06/30/10/23/icon-5355896__480.png" alt="{{ People.Name }}">
+{%- endif -%}
+ </figure>
+</center>
+
+
+  <div class="card-body" style="margin-top: 10px" >
   <p class="card-title has-text-weight-medium"> {{ people.Name }}  </p>
+  <div style="min-height: 4rem; font-size:smaller">
   {% if people.Affiliation != blank  %}
        {{ people.Affiliation }} <br>
    {% else %}
-       University of Glasgow <br>
-   {% endif %}    
-    <a href="{{ people.Link }}"> <button type="button"  class="btn btn-primary">  More Info  </button></a> <br>
-    </div>
+       University of Glasgow
+   {% endif %}
+      </div>
+   <a href="{{ people.Link }}"> <button type="button"  class="btn btn-primary">  More Info  </button></a> <br>
+     </div>
+  <br>
 </div>
 
 </div>
