@@ -12,6 +12,9 @@ In particular, protein antigens and their specific epitopes are formulation targ
 
 
 ## Collaborators
+
+{% include people Name='Brusic;Pyne;Kepler;Gupta' %}
+
 * [Vladimir Brusic](https://research.nottingham.edu.cn/en/persons/vladimir-brusic) - Joint research done while  Prof.  Brusic was at [Dana-Farber Cancer Institute](https://www.dana-farber.org/). 
 * [Saumyadipta Pyne](https://midasnetwork.us/people/saumyadipta-pyne/) - Joint research done while  Prof.  Pyne was  at[Broad Institute, MIT](https://www.broadinstitute.org/) 
 * Ping Shi - Research done at Boston University

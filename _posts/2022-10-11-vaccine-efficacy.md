@@ -18,6 +18,7 @@ We have led the statistical analyses of one of the earliest study of vaccine eff
 
 
 ## Current Projects
+
  - Vaccine effectiveness against Omicron in adult population across Greater Glasgow Health Board (NHSGGC). 
  - Vaccine effectiveness in pediatric population across Scotland.  
  - Severity across successive SARS-CoV-2 variants measured in terms of Death, ICU admission and Hospitalisation.   [Preprint](https://www.medrxiv.org/content/10.1101/2022.03.24.22272915v2)
@@ -27,20 +28,21 @@ We have led the statistical analyses of one of the earliest study of vaccine eff
 
 
 ## Researcher
-{% include people Name='Craig' %}
-
-
+<!--{% include people Name='Craig' %}
+-->
+ - Craig Wilkie
+  
 ## Glasgow Collaborators
 
-{% include people Name='Emma;Brian;David;Massimo' %}
-
-<!-- - [Emma Thomson
+<!--{% include people Name='Emma;Brian;David;Massimo' %}
+-->
+ - [Emma Thomson
 ](https://www.gla.ac.uk/schools/infectionimmunity/staff/emmathomson/)
  - [Brian Willett
 ](https://www.gla.ac.uk/schools/infectionimmunity/staff/brianwillett/)
  - [David Robertson](https://www.gla.ac.uk/schools/infectionimmunity/staff/davidrobertson/)
  - [Massimo Palmarini](https://www.gla.ac.uk/schools/infectionimmunity/staff/massimopalmarini/)
- -->
+
 ## Related links
 
 ## Related publications 
