@@ -1,0 +1,43 @@
+{% assign people_list = site.data.people %}
+{% assign style = include.style | downcase | default: "all" %}
+{% assign include_link = include.link %}
+
+{% if include.Name %}
+  {% assign names = include.Name  | split: ";" %}
+{% endif %}
+
+
+
+
+
+
+<div>
+
+{%- for people in people_list -%}
+{%- for name in names -%}
+{%- if people.Name   contains name  -%}
+
+<div class="card ">
+<div class="card-horizontal text-dark ">
+<figure class="image is-128x128 is-rounded">
+  <img class="is-rounded" src="{{ people.Photo }}" alt="{{ People.Name }}">
+  </figure>
+  <div class="card-body ">
+                  <span></span>
+
+  <h4 class="card-title"> {{ people.Name }}  </h4>
+  {% if people.Affiliation != blank  %}
+       {{ people.Affiliation }} <br>
+   {% else %}
+       University of Glasgow <br>
+   {% endif %}    
+    <a href="{{ people.Link }}"> <button type="button"  class="btn btn-primary">  More Info  </button></a> <br>
+    </div>
+</div>
+</div>
+<br>
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+
+</div>
