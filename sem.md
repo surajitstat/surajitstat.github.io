@@ -10,7 +10,7 @@ Selecting between competing structural equation models is a common problem. Ofte
 
 ## External Collaborators
 
-{% include people Name='Bollen; Zavisca; Berger' %}
+{% include people Name='Bollen; Zavisca; Berger;Jeff' %}
 
 
 

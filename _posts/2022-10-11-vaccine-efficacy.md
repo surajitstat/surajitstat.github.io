@@ -28,22 +28,20 @@ We have led the statistical analyses of one of the earliest study of vaccine eff
 
 
 ## Researcher
-<!--{% include people Name='Craig' %}
--->
- - Craig Wilkie
+{% include people Name='Craig' %}
   
 ## Glasgow Collaborators
 
-<!--{% include people Name='Emma;Brian;David;Massimo' %}
--->
- - [Emma Thomson
+{% include people Name='Emma;Brian;David;Massimo' %}
+
+<!-- - [Emma Thomson
 ](https://www.gla.ac.uk/schools/infectionimmunity/staff/emmathomson/)
  - [Brian Willett
 ](https://www.gla.ac.uk/schools/infectionimmunity/staff/brianwillett/)
  - [David Robertson](https://www.gla.ac.uk/schools/infectionimmunity/staff/davidrobertson/)
  - [Massimo Palmarini](https://www.gla.ac.uk/schools/infectionimmunity/staff/massimopalmarini/)
 
-## Related links
+-->## Related links
 
 ## Related publications 
 {% include gscholar include_link=true style="surajit" title_search="Omicron" %}

@@ -28,8 +28,7 @@ tags:
 
 ## Researchers
 
-- [Wenhui Zhang](https://www.carnegie-trust.org/alumni/wenhui-zhang-2/) (Carnegie Trust funded Ph.D. Student)
-- Yalei Wang (Post Doctoral researcher)
+{% include people Name='Wenhui;Yalei' %}
 
 ## External Collaborators
 - [Professor Carola-Bibiane Schönlieb ](https://www.damtp.cam.ac.uk/user/cbs31/Home.html) University of Cambridge 

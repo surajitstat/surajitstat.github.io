@@ -29,7 +29,7 @@
   
 - name: Male Pelvis segmentation
   link: http://midag.cs.unc.edu/
-  image: assets/images/stDef.jpg
+  image: assets/images/mrep.png
   description: Medical Image segmentation. Describing the probability densities of multi-object complexes by describing individual objects and their inter-object relationships leads to desirable locality without ignoring the context of an object. We describe a means of decomposing object variations into self effects and neighbor effects. We describe an approach for estimating the self and neighbor effect probability densities for each object in the complex using augmentation and prediction, supported by PGA on m-reps. We apply this method to the inter-day variation of m-reps of male pelvic organs within an individual patient.
   
 - name: Structural Equations Model
@@ -39,7 +39,7 @@
 
 - name: Immunoinformatics and Bioinformatics
   link: immunology
-  image: assets/images/immune.jpg
+  image: assets/images/immune.png
   description: A number of projects attempting to understand the immune system. Flow Cytometry, MHC Binding and Micro-Array analysis
 
 

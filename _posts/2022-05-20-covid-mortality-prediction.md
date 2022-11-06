@@ -24,12 +24,15 @@ tags:
 We have developed and validated risk tool (LUCAS) based on rapid and routine blood tests predicts the mortality of patients infected with SARS-CoV-2 virus. This prediction model has both high and robust predictive power and has been tested on an external set of patients and therefore can be used to effectively triage patients when resources are limited. In addition, LUCAS can be used with chest imaging information and NEWS2 score.
 
 
-## Researchers
- - Craig Wilkie
+## Researcher
+{% include people Name='Craig' %}
 
 ## External Collaborators
 
-### University of Brighton
+
+{% include people Name='Louise;Simonne;Abhirup;Bart' %}
+
+<!--### University of Brighton
 
 - Louise Mackenzie
 - Simonne Weeks
@@ -46,7 +49,7 @@ We have developed and validated risk tool (LUCAS) based on rapid and routine blo
 
  - Andrew Sift
 - Michael Mamalakis 
-
+-->
 
 
 ## Related links
