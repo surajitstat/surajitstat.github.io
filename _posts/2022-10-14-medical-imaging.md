@@ -38,7 +38,7 @@ tags:
 
 ## Related links
 
-<div class="card-horizontal mb-4 border-0" markdown=1 >
+<div class="card-footer mb-4 border-0" markdown=1 >
 
 <p class="card-footer-item" markdown=1>
 [![](https://www.e-lfh.org.uk/wp-content/uploads/2021/11/SINAPSE-logo_220x140-002.jpg)

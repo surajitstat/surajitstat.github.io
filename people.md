@@ -30,7 +30,7 @@ layout: pageleft
 
 ## Former students 
 
-{% include people Name='Maryam;Bader;Saliha;Yansong;Dan;Chong' %}
+{% include people Name='Maryam;Bader;Saliha;Yansong;Ren;Chong' %}
 
 
 <!--* [Bader Al-Ruwali](https://www.ju.edu.sa/en/colleges/science-college/college-of-science/departments/department-of-mathematics/department-members/statistics/): Currently Assistant Professor at the Department of Statistics, Jouf University, Saudi Arabia.
