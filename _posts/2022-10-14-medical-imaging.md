@@ -15,12 +15,12 @@ tags:
  
 > The primary goal for developing the new statistical framework is to mimic the human perception for tumour delineation and marry it with all the advantages of an analytic method using modern-day computing environment. Our proposed framework will explicitly use statistical models which can accommodate the 2D and 3D spatial relationships in medical images along with their natural ability to fuse images from different modalities (e.g. CT/MRI) and provide complementary information for image segmentation tasks. This project has six main aims:
 
-1. Development of a model that provides an accurate representation of the intensities on a 2D slice of a PET image and validate our method on available multi-centre scans.
-2. Provide the tools for developing an approach with uncertainty measurement along with image segmentation, offering inference on the whole image based on our probabilistic contour method. 
-3. Generalise the 2D models to accommodate multiple slices to facilitate tumour delineation in 3D and compare it with 3D models.
-4. Extend 3D models to accommodate additional modalities such as CT, DCE-CT,MRI which might be observed over different (spatial) resolutions.
-5. Development of the framework for using of 3D probabilistic contours on PET images to produce optimised intensity maps/isodose plan for Intensity-modulated radiation therapy planning.
-6. Provide user-friendly software to implement the above methods and train several experienced radiologists. 
+
+
+
+
+
+
 
 
 ## Goal
@@ -37,9 +37,39 @@ tags:
 - [Dr. Xiaohao Cai](https://xiaohaocai.netlify.app/) University of Southampton
 
 ## Related links
-* [CMIH](https://www.cmih.maths.cam.ac.uk)
-* [SoftMech](http://www.softmech.org)
-* [SINAPSE](http://www.sinapse.ac.uk)
+
+<div class="card-horizontal mb-4 border-0" markdown=1 >
+
+<p class="card-footer-item" markdown=1>
+[![](https://www.e-lfh.org.uk/wp-content/uploads/2021/11/SINAPSE-logo_220x140-002.jpg)
+](http://www.sinapse.ac.uk)</p>
+
+<p class="card-footer-item" markdown=1>
+[![](http://www.softmech.org/t4external/sitelogo_675984_en.png)](http://www.softmech.org/)
+</p>
+
+
+<p class="card-footer-item" markdown=1>
+[![](https://www.cmih.maths.cam.ac.uk/sites/default/files/default_images/cmih_project_logo.png)](https://www.cmih.maths.cam.ac.uk/)
+</p>
+
+
+
+
+<p class="card-footer-item nobr" markdown=1>
+[![](https://www.nhsggc.scot/wp-content/uploads/2021/08/NHSGGCRGB.jpg) 
+Nuclear Medicine
+
+](https://www.nhsggc.scot/) 
+</p>
+
+
+
+
+</div>
+
+
+<br>
 
 
 ## Related publications 

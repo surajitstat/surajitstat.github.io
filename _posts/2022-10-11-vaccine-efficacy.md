@@ -34,6 +34,7 @@ We have led the statistical analyses of one of the earliest study of vaccine eff
 
 {% include people Name='Emma;Brian;David;Massimo' %}
 
+
 <!-- - [Emma Thomson
 ](https://www.gla.ac.uk/schools/infectionimmunity/staff/emmathomson/)
  - [Brian Willett
@@ -41,7 +42,41 @@ We have led the statistical analyses of one of the earliest study of vaccine eff
  - [David Robertson](https://www.gla.ac.uk/schools/infectionimmunity/staff/davidrobertson/)
  - [Massimo Palmarini](https://www.gla.ac.uk/schools/infectionimmunity/staff/massimopalmarini/)
 
--->## Related links
+-->
+## Related links
+
+<div class="card-horizontal mb-4 border-0" markdown=1 >
+
+<p class="card-footer-item" markdown=1>
+[![](http://glue-tools.cvr.gla.ac.uk/images/CVRLogo.png)
+](https://www.gla.ac.uk/research/az/cvr/)
+</p>
+
+<p class="card-footer-item" markdown=1>
+[![](https://www.hdruk.ac.uk/wp-content/themes/hdruk/assets/img/logo.svg)](https://www.hdruk.ac.uk/)
+</p>
+	
+	
+<p class="card-footer-item" markdown=1>
+[![](https://www.nhsggc.scot/wp-content/uploads/2021/08/NHSGGCRGB.jpg)
+](https://www.nhsggc.scot/)	</p>
+	
+
+
+<p class="card-footer-item" markdown=1>
+[![](https://res.cloudinary.com/dwccfildc/c_limit,f_auto,w_1140/v1602509982/prod/0131a81e941017469614dbc0520c297f.png)](https://www.ukri.org/councils/mrc/)
+</p>
+
+
+<p class="card-footer-item" markdown=1>
+[![](https://publichealthscotland.scot/images/phs-logo.png)
+](https://publichealthscotland.scot/)</p>
+
+</div>
+
+
+<br>
 
 ## Related publications 
 {% include gscholar include_link=true style="surajit" title_search="Omicron" %}
+

@@ -9,19 +9,26 @@
 
 <br>
 
+
+
 <div class="columns is-multiline is-mobile is-gapless noline	">
+
+
 
 {%- for people in people_list -%}
 {%- for name in names -%}
 {%- if people.Name   contains name  -%}
+
+
 <div class="column has-text-centered  is-one-quarter-widescreen is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet is-two-fifths-mobile is-three-quarters-touch" >
-<div class="has-background-light card" style="margin:1rem; padding-top:1rem">
+
+ <div class="has-background-light card" style="margin:1rem; padding-top:1rem">
+
 <center>
 <figure class="image is-128x128 circle-cropper">
 {% if people.Photo %}
- 
-  <img  src="{{ people.Photo }}" alt="{{ people.Name }}"> 
-{% else %}
+   <img  src="{{ people.Photo }}" alt="{{ people.Name }}"> 
+ {% else %}
   <img  src="https://cdn.pixabay.com/photo/2020/06/30/10/23/icon-5355896__480.png" alt="{{ people.Name }}">
 {%- endif -%}
  </figure>
@@ -42,7 +49,7 @@
      </div>
   <br>
 </div>
-
+	
 </div>
 <br>
 {%- endif -%}
