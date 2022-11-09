@@ -47,8 +47,4 @@ layout: pageleft
 
 -->
 
-## Collaborators
-
-
-
 </div>
