@@ -1,0 +1,53 @@
+{% assign grant_list = site.data.grants %}
+
+
+
+{% if include.Name %}
+  {% assign names = include.Name  | split: ";" %}
+{% endif %}
+
+<br>
+
+
+
+<div class="rows">
+
+
+{%- for grant in grant_list -%}
+
+{%- for name in names -%}
+{%- if grant.Title   contains name  -%}
+
+
+<div class="row" >
+
+ <div class="has-background-white card" style="padding:1rem">
+
+
+
+<div class="card-body" style="margin-top: 10px" >
+  <p class="card-title has-text-weight-medium"> 
+   <a href="{{ grant.Link }}">  {{ grant.Title }}  </a> </p>
+
+
+  <div style="min-height: 4rem; font-size:smaller">
+  <p class="card-body has-text-weight-bold"> {{ grant.Funder }} </p>
+  
+{%- if grant.Total -%}
+<p> Funds : £{{ grant.Total }} </p>
+{%- endif -%}
+
+    <p class="card-body has-text-weight-medium">Dates: {{ grant.Start }} - {{grant.End}} </p>
+
+ 
+
+</div>
+</div>
+	
+</div>
+<br>
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+
+</div>
