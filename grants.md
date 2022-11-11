@@ -1,5 +1,5 @@
 ---
-title: People
+title: Grants
 layout: pageleft
 ---
 
@@ -15,7 +15,7 @@ layout: pageleft
 <div class="other" markdown=1>
 ## Other Research Grants
 
-{% include grant Name='LoRa;peatland;FBC' %}
+{% include grant Name='LoRa;peatland;FBC;Reinvigoration' %}
 
 </div>
 
