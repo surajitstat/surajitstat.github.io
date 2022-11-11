@@ -15,7 +15,7 @@ layout: pageleft
 <div class="grants" markdown=1>
 ## Other Research Grants
 
-{% include grant Name='LoRa;peatland;FBC;Reinvigoration' %}
+{% include grant Name='Reinvigoration;FBC;LoRa;peatland;' %}
 
 </div>
 

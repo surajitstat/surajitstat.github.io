@@ -1,4 +1,4 @@
-{% assign grant_list = site.data.grants %}
+{% assign grant_list = site.data.grants | sort:"End" | reverse  %}
 
 
 
@@ -25,20 +25,23 @@
   <header class="card-header has-background-light" style="padding:0.3rem">
 
   <p class="card-title has-text-weight-semi-bold">
-  
-   <a href="{{ grant.Link }}">  <i class="fas fa-angle-double-right"></i> {{ grant.Title }}  </a> </p>
+  <ul>
+  <li>   <a href="{{ grant.Link }}">   {{ grant.Title }}  </a> </li>
+  </ul>
+  </p>
 </header>
 
-<div class="card-body" style="padding:0.2rem 1rem 0.2rem 1rem ; margin-top:1rem" >
+<div class="card-body" style="padding: 0rem 1rem 0.2rem 2rem ; margin-top:0.3rem" >
 
   <div style="min-height: 4rem; font-size:smaller">
   <p class="has-text-weight-bold"> {{ grant.Funder }} <br> 
   {%- if grant.Total -%}
- Funds : {{ grant.Total }} <br>
+<span class="has-text-grey has-text-weight-normal">  Funds : </span> {{ grant.Total }} <br>
  {%- endif -%}
-Role: {{ grant.Role }} <br>
+<span class="has-text-grey has-text-weight-normal"> Role: </span> {{ grant.Role }} <br>
 
-    <span class="card-body has-text-weight-medium">Dates: {{ grant.Start }} - {{grant.End}} </span>
+<span class="has-text-grey has-text-weight-normal"> Dates: </span>    <span class="card-body has-text-weight-medium"> {{ grant.Start | date: "%d.%m.%Y" }} -
+    {{grant.End | date: "%d.%m.%Y" }} </span>
 
  </p>
 
