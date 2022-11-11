@@ -3,16 +3,16 @@ title: Grants
 layout: pageleft
 ---
 
-<div class="other" markdown=1>
+<div class="grants" markdown=1>
 
 
 ## Major grants
 
-{% include grant Name='Ramganga;digital;Climate;Variants' %}
+{% include grant Name='Ramganga;digital;Variants;Climate;GK' %}
 
 </div>
 
-<div class="other" markdown=1>
+<div class="grants" markdown=1>
 ## Other Research Grants
 
 {% include grant Name='LoRa;peatland;FBC;Reinvigoration' %}
@@ -21,7 +21,7 @@ layout: pageleft
 
 
 
-<div class="other" markdown=1>
+<div class="grants" markdown=1>
 ## Studentship and other commercial grants
 {% include grant Name='DATA;Syntehtic' %}
 
@@ -29,7 +29,7 @@ layout: pageleft
 
 
 
-<div class="other" markdown=1>
+<div class="grants" markdown=1>
 ##  Workshop Grants
 
 {% include grant Name='Frontiers;Solving' %}

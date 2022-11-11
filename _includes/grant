@@ -10,7 +10,7 @@
 
 
 
-<div class="rows">
+<div class="rows" style="margin-top:-2rem;" >
 
 
 {%- for grant in grant_list -%}
@@ -21,25 +21,27 @@
 
 <div class="row" >
 
- <div class="has-background-white card" style="padding:1rem">
+ <div class="has-background-white card" >
+  <header class="card-header has-background-light" style="padding:0.3rem">
 
+  <p class="card-title has-text-weight-semi-bold">
+  
+   <a href="{{ grant.Link }}">  <i class="fas fa-angle-double-right"></i> {{ grant.Title }}  </a> </p>
+</header>
 
-
-<div class="card-body" style="margin-top: 10px" >
-  <p class="card-title has-text-weight-medium"> 
-   <a href="{{ grant.Link }}">  {{ grant.Title }}  </a> </p>
-
+<div class="card-body" style="padding:0.2rem 1rem 0.2rem 1rem ; margin-top:1rem" >
 
   <div style="min-height: 4rem; font-size:smaller">
-  <p class="card-body has-text-weight-bold"> {{ grant.Funder }} </p>
-  
-{%- if grant.Total -%}
-<p> Funds : £{{ grant.Total }} </p>
-{%- endif -%}
+  <p class="has-text-weight-bold"> {{ grant.Funder }} <br> 
+  {%- if grant.Total -%}
+ Funds : {{ grant.Total }} <br>
+ {%- endif -%}
+Role: {{ grant.Role }} <br>
 
-    <p class="card-body has-text-weight-medium">Dates: {{ grant.Start }} - {{grant.End}} </p>
+    <span class="card-body has-text-weight-medium">Dates: {{ grant.Start }} - {{grant.End}} </span>
 
- 
+ </p>
+
 
 </div>
 </div>
