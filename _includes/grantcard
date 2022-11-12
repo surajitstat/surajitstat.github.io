@@ -1,7 +1,6 @@
 {% assign grant_list = site.data.grants | sort:"End" | reverse  %}
 
 
-
 {% if include.Name %}
   {% assign names = include.Name  | split: ";" %}
 {% endif %}
@@ -21,7 +20,7 @@
 {% if grant.Title   contains name  %}
 <div class="columns is-marginless card has-text-centered">
     <div class="column  is-marginless is-paddingless is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet">
-        <div class="image is-5by3" style="background-image: url({{grant.image}});"></div>
+        <div class="image is-4by3" style="background-image: url({{grant.image}});"></div>
     </div>
     
  <div class="column has-text-left-desktop has-text-left-tablet">

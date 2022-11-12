@@ -19,7 +19,7 @@
 {%- if grant.Title   contains name  -%}
 
 
-<div >
+<div class="row"  >
 
  <div class="has-background-white card" style="margin-top:-0.5rem; border:1pt solid #708090;" >
 
