@@ -1,0 +1,57 @@
+{% assign grant_list = site.data.grants | sort:"End" | reverse  %}
+
+
+
+{% if include.Name %}
+  {% assign names = include.Name  | split: ";" %}
+{% endif %}
+
+
+
+<div class="rows">
+
+{% for grant in grant_list %}
+{% for name in names %}
+{% if grant.Title   contains name  %}
+<div class="columns is-marginless card has-text-centered">
+    <div class="column is-marginless is-paddingless is-one-third-desktop is-one-third-fullhd is-one-third-tablet">
+        <div class="image is-16by9" style="background-image: url({{grant.image}});"></div>
+    </div>
+    
+ <div class="column has-text-left-desktop has-text-left-tablet">
+
+
+<div class="content has-text-grey">
+<h1 class="title is-size-5">	 
+               <a href="{{grant.Link | absolute_url}}"> {{ grant.Title }} </a>
+	       </h1>
+	  </div>
+                <hr class="has-background-grey">
+<div style="min-height: 4rem; font-size:smaller">
+  <p class="has-text-weight-semibold"> {{ grant.Funder }} <br> 
+  {%- if grant.Total -%}
+<span class="has-text-grey has-text-weight-normal">  Funds : </span> {{ grant.Total }} <br>
+ {%- endif -%}
+<span class="has-text-grey has-text-weight-normal"> Role: </span> {{ grant.Role }} <br>
+
+
+<span class="has-text-grey has-text-weight-normal"> Dates: </span>   <span class="card-body has-text-weight-semibold"> {{ grant.Start | date: "%d.%m.%Y" }} →
+    {{grant.End | date: "%d.%m.%Y" }} </span>
+</p>
+
+<br>
+<br>
+</div>
+</div>
+</div>
+
+
+
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+</div>
+
+
+
