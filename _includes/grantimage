@@ -24,6 +24,10 @@
  <div class="has-background-white card" style="margin-top:-0.5rem; border:1pt solid #708090;" >
 
 <div class="card-horizontal">
+     
+<div class="img-square-wrapper" style="width:30%;min-width:200px">
+                        <img class="" src="{{grant.image}}" alt="Card image cap">
+                    </div>
 
 
 
