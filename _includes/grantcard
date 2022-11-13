@@ -18,25 +18,25 @@
 {% for grant in grant_list %}
 {% for name in names %}
 {% if grant.Title   contains name  %}
-<div class="columns is-marginless card has-text-centered">
-    <div class="column  is-marginless is-paddingless is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet">
+<div class="columns is-marginless card has-text-centered is-vcentered has-background-light">
+    <div class="column  is-marginless is-paddingless is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet ">
 
 
-<figure class="is-marginless image is-4by3">
-  <img src="{{grant.image}}">
+<figure class="is-marginless image is-4by3" >
+  <img src="{{grant.image}}" >
 </figure>
 </div>
   
- <div class="column has-text-left-desktop has-text-left-tablet">
+ <div class="column has-text-left-desktop has-text-left-tablet ">
 
 
-<div class="content has-text-grey">
+<div class="content has-text-grey ">
 <h1 class="title is-size-5 line-clamp">	 
                <a href="{{grant.Link | absolute_url}}"> {{ grant.Title }} </a>
 	       </h1>
 	  </div>
                 <hr class="has-background-grey">
-<div style="min-height: 4rem; font-size:smaller">
+<div style="font-size:smaller">
   <p class="has-text-weight-semibold"> {{ grant.Funder }} <br> 
   {%- if grant.Total -%}
 <span class="has-text-grey has-text-weight-normal">  Funds : </span> {{ grant.Total }} <br>
