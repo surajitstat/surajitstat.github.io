@@ -20,9 +20,13 @@
 {% if grant.Title   contains name  %}
 <div class="columns is-marginless card has-text-centered">
     <div class="column  is-marginless is-paddingless is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet">
-        <div class="image is-4by3" style="background-image: url({{grant.image}});"></div>
-    </div>
-    
+
+
+<figure class="is-marginless image is-4by3">
+  <img src="{{grant.image}}">
+</figure>
+</div>
+  
  <div class="column has-text-left-desktop has-text-left-tablet">
 
 
@@ -40,7 +44,7 @@
 <span class="has-text-grey has-text-weight-normal"> Role: </span> {{ grant.Role }} <br>
 
 
-<span class="has-text-grey has-text-weight-normal"> Dates: </span>   <span class="card-body has-text-weight-semibold"> {{ grant.Start | date: "%d.%m.%Y" }} →
+<span class="has-text-grey has-text-weight-normal"> <i class="fa fa-calendar"  aria-hidden="true"></i> </span>   <span class="card-body has-text-weight-semibold"> {{ grant.Start | date: "%d.%m.%Y" }} →
     {{grant.End | date: "%d.%m.%Y" }} </span>
 </p>
 
