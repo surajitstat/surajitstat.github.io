@@ -27,13 +27,16 @@
 </figure>
 </div>
   
- <div class="column has-text-left-desktop has-text-left-tablet ">
+ <div class="column has-text-left-desktop has-text-left-tablet">
 
 
-<div class="content has-text-grey ">
-<h1 class="title is-size-5 line-clamp">	 
+<div class="content has-text-grey">
+
+<h1 class="title is-size-5" style="margin-left:0!important;">	 
                <a href="{{grant.Link | absolute_url}}"> {{ grant.Title }} </a>
 	       </h1>
+
+
 	  </div>
                 <hr class="has-background-grey">
 <div style="font-size:smaller">

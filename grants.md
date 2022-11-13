@@ -23,26 +23,24 @@ layout: pageleft
 
 
 
-<div class="grants" markdown=1>
 
-
-## Studentship and other commercial grants
-{% include grantcard Name='MSc;synthetic;tumour' %}
-
-</div>
 
 
 
 <div class="grants" markdown=1>
 ##  Workshop Grants
-
 {% include grantcard Name='Frontiers;Solving' %}
-
 </div>
 
 
 
 
 
-<style>
-</style>
+
+<div class="grants" markdown=1>
+## Studentship and other commercial grants
+{% include grantcard Name='MSc;synthetic;tumour;Training' %}
+</div>
+
+
+
