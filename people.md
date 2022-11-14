@@ -3,16 +3,13 @@ title: People
 layout: pageleft
 ---
 
-<div class="other" markdown=1>
+<div class="grant" markdown=1>
 
 
 ## Current Lab members
 
-
 ### Research Associates
 {% include people Name='Craig;Yalei' %}
-
-
 
 ### Post Graduate students 
 
