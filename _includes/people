@@ -7,12 +7,16 @@
 {% endif %}
 
 
-<div class="columns is-multiline is-mobile is-gapless noline">
+
+<div class="columns  is-multiline is-mobile noline">
+
 {%- for people in people_list -%}
 {%- for name in names -%}
 {%- if people.Name   contains name  -%}
 
-<div class="column has-text-centered  is-one-quarter-widescreen is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet is-two-fifths-mobile is-three-quarters-touch" >
+ <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-quarter-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
+      id="project-card">
+      
 
  <div class="has-background-light card" style="margin:1rem; padding:1rem">
 
@@ -28,7 +32,7 @@
 
 
 <div class="card-body" style="margin-top: 10px" >
-  <p class="card-title has-text-weight-medium"> {{ people.Name }}  </p>
+  <p class="card-title has-text-weight-medium is-size-5"> {{ people.Name }}  </p>
   <hr class="has-background-grey" >
 
   <div style="min-height: 4rem; font-size:smaller">
