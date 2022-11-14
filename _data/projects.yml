@@ -42,4 +42,34 @@
   image: assets/images/immune.png
   description: A number of projects attempting to understand the immune system. Flow Cytometry, MHC Binding and Micro-Array analysis
 
+- name: Modelling blanket peatland depth
+  link: https://www.gla.ac.uk/research/az/secure/feasibilityprojects/projecta/
+  image: assets/images/grant/peatland.jpg
+  description: Peatlands are spatially heterogeneous ecosystems that develop due to a complex set of autogenic physical and biogeochemical processes and allogenic factors such as the climate and topography. They are significant stocks of global soil carbon, and therefore predicting the depth of peatlands is an important part of establishing an accurate assessment of their magnitude. Yet there have been few attempts to account for both internal and external processes when predicting the depth of peatlands. Using blanket peatlands in Great Britain as a case study, we compare a linear and geostatistical (spatial) model and several sets of covariates applicable for peatlands around the world that have developed over hilly or undulating terrain. We hypothesized that the spatial model would act as a proxy for the autogenic processes in peatlands that can mediate the accumulation of peat on plateaus or shallow slopes. Our findings show that the spatial model performs better than the linear model in all cases—root mean square errors (RMSE) are lower, and 95% prediction intervals are narrower. In support of our hypothesis, the spatial model also better predicts the deeper areas of peat, and we show that its predictive performance in areas of deep peat is dependent on depth observations being spatially autocorrelated. Where they are not, the spatial model performs only slightly better than the linear model. As a result, we recommend that practitioners carrying out depth surveys fully account for the variation of topographic features in prediction locations, and that sampling approach adopted enables observations to be spatially autocorrelated. © 2018 Young et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+  
+  
+- name: Digital environment for water 
+  image: assets/images/grant/digital.jpg
+  link: https://censis.org.uk/censis_projects/a-digital-environment-for-water-resources/  
+  description: Responsible management of water in Scotland ensures there is enough supply in rivers, lochs and groundwater to protect wildlife, maintain supplies of safe drinking water while also letting businesses and farmers take water for their own needs.
+
+
+
+
+- name: K-12 Education Global Change Initiative
+  image: assets/images/grant/gk12.jpg
+  link: http://gk12glacier.bu.edu/pages/about/facultyStaff.php
+  description: Preparing Tomorrow's Scientists and Engineers for the Challenges of the 21st Century
+
+
+- name: Flood Early Warning System 
+  image: assets/images/grant/lora.jpg
+  link: https://researchonline.gcu.ac.uk/en/projects/integration-and-evaluation-of-lora-sensor-technology-for-a-flood-
+  description: Preparing Tomorrow's Scientists and Engineers for the Challenges of the 21st Century
+
+
+#- name: 
+#  image: 
+# link: 
+# description: 
 

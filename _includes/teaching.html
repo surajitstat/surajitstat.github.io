@@ -30,7 +30,7 @@
 
 <div class="content has-text-grey">
 
-<h1 class="title is-size-5" style="margin-left:0!important;">	 
+<h1 class="title is-size-5" style="margin:0!important;">	 
                <a href="{{course.Link}}"> {{ course.Title }} </a>
 	       </h1>
 
@@ -38,8 +38,10 @@
 	  </div>
                 <hr class="has-background-grey">
 <div style="font-size:smaller">
-<img src = "{{course.Uimage}}" alt="{{course:University}}" width="150"> <br>
- 
+<img src = "{{course.Uimage}}" alt="{{course:University}}" class="imageuniv">
+<br>
+
+  
 <span class="has-text-grey has-text-weight-normal"> <i class="fa fa-calendar"  aria-hidden="true"></i> </span>   <span class="card-body has-text-weight-semibold"> {{ course.Start }} →
     {{course.End }} </span>
 
