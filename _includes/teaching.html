@@ -1,0 +1,60 @@
+{% assign course_list = site.data.courses | sort:"End" | reverse  %}
+
+
+
+{% if include.Name %}
+  {% assign names = include.Name  | split: ";" %}
+{% endif %}
+
+
+<div class="row">
+{%- for name in names -%}
+
+{%- for course in course_list -%}
+
+{%- if course.Title   contains name  -%}
+
+<div class="columns is-marginless card has-text-centered is-vcentered has-background-light">
+    <div class="column  is-marginless is-paddingless is-one-fifth-desktop is-one-fifth-fullhd is-one-fifth-tablet ">
+
+
+<figure class="is-marginless image is-3by2" >
+  <img src="../assets/images/teaching/{{course.image}}" >
+</figure>
+</div>
+
+
+ 
+ <div class="column has-text-left-desktop has-text-left-tablet">
+
+
+<div class="content has-text-grey">
+
+<h1 class="title is-size-5" style="margin-left:0!important;">	 
+               <a href="{{course.Link}}"> {{ course.Title }} </a>
+	       </h1>
+
+
+	  </div>
+                <hr class="has-background-grey">
+<div style="font-size:smaller">
+<img src = "{{course.Uimage}}" alt="{{course:University}}" width="150"> <br>
+ 
+<span class="has-text-grey has-text-weight-normal"> <i class="fa fa-calendar"  aria-hidden="true"></i> </span>   <span class="card-body has-text-weight-semibold"> {{ course.Start }} →
+    {{course.End }} </span>
+
+
+</div>
+</div>
+</div>
+
+
+<br>
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+
+</div>
+
+
+
