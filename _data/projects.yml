@@ -26,7 +26,19 @@
   image: assets/images/mortality_covid.jpg
   description: Development of simplified risk tool that enables rapid triaging of SARS CoV-2 positive patients during hospital admission, which complements current practice. 
  
+- name: Recovery from the Pandemic VKEMS
+  link: https://gateway.newton.ac.uk/event/tgm105
+  image: https://gateway.newton.ac.uk/sites/default/files/styles/leading/public/asset/img/2109/iStock-1226418360.jpg
+  description:  This event brought mathematical scientists and other disciplines together to solve end user defined challenges with the aim of mitigating the impact of COVID-19 on the hospitality and leisure sector.
+ 
+- name: Generation of synthetic medical histories
+  link: https://gtr.ukri.org/projects?ref=studentship-1953204
+  image: assets/images/grant/synthetic.jpg
+  description: In collaboration with Canon Medical reseaerch group we are developing a robust framework  which will be capable of generating patient histories which are entirely synthetic, but never-the-less embody the structure, messiness, formats and differing types of data with partially plausible distributions.  
   
+  
+ 
+   
 - name: Male Pelvis segmentation
   link: http://midag.cs.unc.edu/
   image: assets/images/mrep.png
@@ -55,16 +67,15 @@
 
 
 
+- name: Flood Early Warning System 
+  image: assets/images/grant/lora.jpg
+  link: https://researchonline.gcu.ac.uk/en/projects/integration-and-evaluation-of-lora-sensor-technology-for-a-flood-
+  description: Statistical challenges related to the combined use of data from different monitoring networks with their different respective qualities and uncertainties. 
+
 
 - name: K-12 Education Global Change Initiative
   image: assets/images/grant/gk12.jpg
   link: http://gk12glacier.bu.edu/pages/about/facultyStaff.php
-  description: Preparing Tomorrow's Scientists and Engineers for the Challenges of the 21st Century
-
-
-- name: Flood Early Warning System 
-  image: assets/images/grant/lora.jpg
-  link: https://researchonline.gcu.ac.uk/en/projects/integration-and-evaluation-of-lora-sensor-technology-for-a-flood-
   description: Preparing Tomorrow's Scientists and Engineers for the Challenges of the 21st Century
 
 
