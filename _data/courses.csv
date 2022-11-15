@@ -1,15 +1,15 @@
 Title,Link,University,image,Start,End,Uimage
 Functional Data Analyis (STATS4073/STATS5056), https://www.gla.ac.uk/coursecatalogue/course/?code=STATS4073, University of Glasgow;4H;5M ,fda.jpg,2014,2022,https://www.gla.ac.uk/3t4/img/marque.svg
-Predictive Modelling, https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5076, University of Glasgow;ODL,pm.jpg,2017,2022,https://www.gla.ac.uk/3t4/img/marque.svg
-Data Analytics Project, https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5093P, University of Glasgow;ODL ,project.jpg,2017,2022,https://www.gla.ac.uk/3t4/img/marque.svg
+Predictive Modelling (STATS5076), https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5076, University of Glasgow;ODL,pm.jpg,2017,2022,https://www.gla.ac.uk/3t4/img/marque.svg
+Data Analytics Project (STATS5093P), https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5093P, University of Glasgow;ODL ,project.jpg,2017,2022,https://www.gla.ac.uk/3t4/img/marque.svg
 Multivariate Probability Distributions in R, https://www.datacamp.com/courses/multivariate-probability-distributions-in-r, Datacamp ,datacamp.png,2018,2022,https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/17180/regular.png
- Short Course: Statistical methods for functional data, https://phd.unibo.it/statistics/en/agenda/statistical-methods-for-functional-data, Bologna ,bologna.jpg,2017,2017,../assets/images/teaching/erasmus.png
+ Short Course: Statistical methods for functional data at the University of Bologna, https://phd.unibo.it/statistics/en/agenda/statistical-methods-for-functional-data, Bologna ,bologna.jpg,2017,2017,../assets/images/teaching/erasmus.png
  Regression Models, https://www.gla.ac.uk/coursecatalogue/course/?code=STATS5025, University of Glasgow;5M,regression.jpg,2012,2019,https://www.gla.ac.uk/3t4/img/marque.svg
  Computational Inference ,,University of Glasgow;5M;4H,course.jpg,2012,2014,https://www.gla.ac.uk/3t4/img/marque.svg
 Math 882- Functional Data Analysis, http://math.bu.edu/people/sray/teaching/math882/, Boston University  ,course.jpg,2010,2012,../assets/images/teaching/bu.png
-"Math 584- Multivariate Analysis(Spring 2007, Spring 2009 )", http://math.bu.edu/people/sray/teaching/ math584/, Boston University ,multivariate.png,2006,2012,../assets/images/teaching/bu.png
-" Math 576- Generalized Linear Models (Spring 2007, 2008, 2009)", http://math.bu.edu/people/sray/teaching/math576/,Boston University,glm.jpg,2008,2012,../assets/images/teaching/bu.png
-Math 881- Topics in High Dimensional Data Analysis (Fall 2007), http://math.bu.edu/people/sray/teaching/math881/, Boston University ,hd.jpg,2008,2010,../assets/images/teaching/bu.png
-Math 586- Design of Experiments (Fall 2006), http://math.bu.edu/people/sray/math586/, Boston University ,design2.jpg,2006,2010,../assets/images/teaching/bu.png
+Math 584- Multivariate Analysis, http://math.bu.edu/people/sray/teaching/ math584/, Boston University ,multivariate.png,2006,2012,../assets/images/teaching/bu.png
+ Math 576- Generalized Linear Models , http://math.bu.edu/people/sray/teaching/math576/,Boston University,glm.jpg,2008,2012,../assets/images/teaching/bu.png
+Math 881- Topics in High Dimensional Data Analysis , http://math.bu.edu/people/sray/teaching/math881/, Boston University ,hd.jpg,2008,2010,../assets/images/teaching/bu.png
+Math 586- Design of Experiments, http://math.bu.edu/people/sray/math586/, Boston University ,design2.jpg,2006,2010,../assets/images/teaching/bu.png
 Principles of Statistical Inference,,University Of North Carolina at Chapel Hill,inference.jpg,2003,2006,https://identity2.sites.unc.edu/wp-content/uploads/sites/885/2019/01/UNC_logo_webblue-e1517942350314.png
 Principles Of Experimental Analysis,,University Of North Carolina at Chapel Hill,design.png,2003,2006,https://identity2.sites.unc.edu/wp-content/uploads/sites/885/2019/01/UNC_logo_webblue-e1517942350314.png
