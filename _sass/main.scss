@@ -278,7 +278,8 @@ margin-left: 5px;
 }
 
 
-.nobr { white-space: nowrap }
+.nobr {
+       white-space: nowrap }
 
 
 .wrap-flex {
@@ -468,6 +469,12 @@ left: 0;
  z-index: 4 !important; 
 }
 
+
+
+.aqua-gradient {
+  height: 300px;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(233, 242, 233, 0.9878326330532213) 0%, rgba(0, 212, 255, 1) 51%, rgba(114, 156, 7, 1) 93%);
+}
 
 
 

@@ -17,11 +17,11 @@
 
 {% assign firstname = people.Name | downcase | truncatewords: 1, ""   %}
 
- <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-quarter-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
+ <div class="column has-text-centered is-paddingless is-marginless is-one-quarter-widescreen is-one-quarter-desktop is-one-quarter-fullhd is-one-third-tablet is-two-fifths-mobile is-one-half-touch"
       id="project-card">
       
 
- <div class="has-background-light card" style="margin:1rem; padding:1rem">
+ <div class=" card " style="margin:1rem; padding:1rem">
 
 <center>
 <figure class="image is-128x128 circle-cropper">
@@ -50,6 +50,7 @@
       </div>
       
    <a href="{{ people.Link }}"> <button type="button"  class="btn btn-primary">  More Info  </button></a> <br>
+   
      </div>
   <br>
 </div>

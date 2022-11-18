@@ -38,16 +38,15 @@ tags:
 
 ## Related links
 
-<div class="card-footer mb-4 border-0" markdown=1 >
+<div class="card-footer" markdown=1 >
 
-<p class="card-footer-item" markdown=1>
-[![](https://www.e-lfh.org.uk/wp-content/uploads/2021/11/SINAPSE-logo_220x140-002.jpg)
+<p class="card-footer-item " markdown=1>
+[![](https://www.sinapse.ac.uk/wp-content/uploads/2022/07/sinapse-logo.svg)
 ](http://www.sinapse.ac.uk)</p>
 
 <p class="card-footer-item" markdown=1>
 [![](http://www.softmech.org/t4external/sitelogo_675984_en.png)](http://www.softmech.org/)
 </p>
-
 
 <p class="card-footer-item" markdown=1>
 [![](https://www.cmih.maths.cam.ac.uk/sites/default/files/default_images/cmih_project_logo.png)](https://www.cmih.maths.cam.ac.uk/)
@@ -69,7 +68,6 @@ Nuclear Medicine
 </div>
 
 
-<br>
 
 
 ## Related publications 
