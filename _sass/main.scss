@@ -442,18 +442,22 @@ left: 0;
 }
 
 .circle-cropper
- {
-    border-radius: 50%;
+{   
+     border-radius: 50%;
+     border: 1px white;
   overflow: hidden;
   width: 30px;
   height: 30px;
   background: no-repeat 50%;
   object-fit: cover;
+  background-position:center;
+  
 }
 .circle-cropper img {
    display: block;
    height: 100%;
    width: 100%;
+ 
 }
 
 .imageuniv{
@@ -499,6 +503,25 @@ text-decoration: none!important; }
 
 .cardbig a:active {
         color:unset!important;
-text-decoration: none!important; }
+	text-decoration: none!important; }
+
+
+
+
+.peoplebox
+{
+    margin:0;
+    padding:0;
+    background: hsl(0,0%,60%);
+      /*  background: $blue; */
+
+       position: absolute;
+    top:0;
+    height:80px;
+    width:100%;
+    border-radius: 0;
+}
+
+
 
 /* end definition for hover effects of people */
