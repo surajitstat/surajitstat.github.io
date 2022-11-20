@@ -17,9 +17,11 @@
 
 {% assign firstname = people.Name | downcase | truncatewords: 1, ""   %}
 
- <div class="column has-text-centered is-paddingless is-marginless is-one-quarter-widescreen is-one-quarter-desktop is-one-quarter-fullhd is-one-third-tablet is-two-fifths-mobile is-one-half-touch"
+
+
+<div class="column has-text-centered is-paddingless is-marginless is-one-quarter-widescreen is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet is-one-third-mobile is-three-quarters-touch"
       id="project-card">
-      
+ 
 
  <div class=" card " style="margin:1rem; padding:1rem">
 
@@ -49,8 +51,12 @@
    {% endif %}
       </div>
       
-   <a href="{{ people.Link }}"> <button type="button"  class="btn btn-primary">  More Info  </button></a> <br>
-   
+   <a href="{{ people.Link }}" class="stretched-link"> <button type="button"  class="btn btn-primary">  More Info  </button></a> <br>
+
+
+    <a href="{{ people.Link }}" class="btn btn-primary stretched-link">Go somewhere</a>
+
+
      </div>
   <br>
 </div>
