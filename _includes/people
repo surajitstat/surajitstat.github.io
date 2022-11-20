@@ -21,7 +21,7 @@
 
 <div class="column has-text-centered is-paddingless is-marginless is-one-quarter-widescreen is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet is-one-third-mobile is-three-quarters-touch"
       id="project-card">
- 
+  
 <a href="{{people.Link}}" target="_blank" >
 
 
