@@ -1,0 +1,17 @@
+<div class="columns is-centered is-multiline is-mobile noline">
+  {% for project in site.data.projects %}
+    <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-quarter-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
+      id="project-card">
+      <a href="{{project.link}}" target="_blank">
+      <div class="has-background-dark card">
+        <figure class="has-background-black image is-3by2" style="background-image: url({{project.image}});">
+        </figure>
+        <div class="card-content ">
+          <h1 class="title has-text-white is-size-4" style="height:6rem;">{{ project.name }}</h1>
+          <p class="has-text-white has-text-weight-normal content line-clamp">{{ project.description}}</p>
+        </div>
+      </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
