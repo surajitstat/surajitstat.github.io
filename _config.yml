@@ -60,7 +60,7 @@ plugins:
 gems:
   - jekyll/scholar
 # Permalink
-permalink: "blog/:title"
+permalink: "research/:title"
 
 # Compress
 compress_html:
