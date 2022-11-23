@@ -17,7 +17,7 @@
 {% for grant in grant_list %}
 {% for name in names %}
 {% if grant.Title   contains name  %}
-<div class="columns is-marginless card has-text-centered is-vcentered has-background-light">
+<div class="columns is-marginless card has-text-centered is-vcentered has-background-white">
     <div class="column  is-marginless is-paddingless is-one-quarter-desktop is-one-quarter-fullhd is-one-quarter-tablet ">
 
 <figure class="is-marginless image is-4by3" >
