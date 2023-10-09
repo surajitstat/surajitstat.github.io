@@ -39,7 +39,7 @@ layout: pageleft
 
 <div class="grants" markdown=1>
 ## Studentship and other commercial grants
-{% include grantcard Name='MSc;synthetic;tumour;Training' %}
+{% include grantcard Name='MSc;synthetic;tumour;Training;Foot' %}
 </div>
 
 
