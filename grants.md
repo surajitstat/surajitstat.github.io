@@ -9,7 +9,7 @@ layout: pageleft
 <div class="grants" markdown=1>
 ## Major grants
 
-{% include grantcard Name='Ramganga;digital;Variants;Climate;GK' %}
+{% include grantcard Name='Ramganga;digital;Variants;Climate;GK;' %}
 </div>
 
 
