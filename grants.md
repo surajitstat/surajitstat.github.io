@@ -16,6 +16,13 @@ layout: pageleft
 
 
 <div class="grants" markdown=1>
+## Commercial grants
+{% include grantcard Name='MSc;synthetic;tumour;Training;Foot' %}
+</div>
+
+
+
+<div class="grants" markdown=1>
 ## Other Research Grants
 {% include grantcard Name='Reinvigoration;Finger;Support;LoRa;peatland;' %}
 
@@ -38,8 +45,8 @@ layout: pageleft
 
 
 <div class="grants" markdown=1>
-## Studentship and other commercial grants
-{% include grantcard Name='MSc;synthetic;tumour;Training;Foot' %}
+## Studentships
+{% include grantcard Name='MSc;synthetic;tumour;Training' %}
 </div>
 
 
