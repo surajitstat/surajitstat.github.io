@@ -17,7 +17,7 @@ layout: pageleft
 
 <div class="grants" markdown=1>
 ## Commercial grants
-{% include grantcard Name='MSc;synthetic;tumour;Training;Foot' %}
+{% include grantcard Name='Foot,carbon,breast;' %}
 </div>
 
 
