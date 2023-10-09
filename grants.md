@@ -16,7 +16,7 @@ layout: pageleft
 
 
 <div class="grants" markdown=1>
-## Commercial grants
+## Innovate UK A4i grants with commercial partners
 {% include grantcard Name='Foot;carbon;breast;' %}
 
 </div>
