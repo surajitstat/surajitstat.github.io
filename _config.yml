@@ -3,7 +3,7 @@ markdown: kramdown
 # URL of the Site
 url: 'https://surajitray.org'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl:
 
 # Title of the Site
 title: Surajit Ray
@@ -16,7 +16,7 @@ site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Medical Imaging, Mixture models, Statistics, Functional Data Analysis
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url:
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://www.gla.ac.uk/media/Media_627169_smxx.jpg
@@ -41,8 +41,7 @@ author-name: Surajit Ray
 # URL for the Image of the Author
 author-image: https://www.gla.ac.uk/media/Media_633760_smxx.jpg
 # 60 Words About the Author
-author-about: I am a Professor of Statistics at the University of Glasgow. My research interests are in the area of uncertainty quantification of AI algorithms for Medical image analysis, the theory and geometry of mixture models and functional data analysis. I am especially interested in challenges presented by "large magnitude", both in the dimension of data vectors and in the number of vector. Core areas of methodological research include multivariate mixtures, structural equations models, high-dimensional clustering and functional clustering. Key collaborative activities involve projects in medical image segmentation, immunology and modeling of climate-ecosystem dynamics.
-
+author-about: I am a Professor of Statistics at the University of Glasgow. My research focuses on uncertainty quantification for AI algorithms in medical image analysis, as well as the theory and geometry of mixture models and functional data analysis. I am particularly interested in problems arising from “large magnitude,” both in the dimensionality of data and in the scale of datasets. My methodological work spans multivariate mixtures, structural equation models, high-dimensional clustering, and functional clustering. Collaborative projects include medical image segmentation, immunology, and climate–ecosystem dynamics, with a growing emphasis on translating medical imaging software tools into clinical practice.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://surajitray.org
 
@@ -96,7 +95,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-# Scholar 
+# Scholar
 scholar:
   style: chicago-fullnote-bibliography
   sort_by: year
