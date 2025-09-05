@@ -1,5 +1,6 @@
 ---
 title: Mixture Models and topography of mixtures
+
 layout: pageleft
 ---
 
@@ -8,6 +9,7 @@ The main result of this article states that one can get as many as *D+1* modes f
 # Former students 
 * Dan Ren
 * Bader Al-Ruwali
+* Chong Liu
 
 
 # Collaborators
